@@ -23,7 +23,7 @@
     background-image: url(images/exploidee-background-light-mode-green-cyan.svg);
     background-repeat: no-repeat;
 
-    background-size: cover;
+    background-size: contain;
 
     
     text-align: center;
