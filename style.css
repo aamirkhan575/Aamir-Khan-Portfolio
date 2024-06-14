@@ -778,6 +778,12 @@ justify-content: space-between;
 
 
 @media (max-width: 599px){
+
+
+    body{
+
+        overflow-x: hidden;
+    }
   
     .navigation{
 
@@ -788,8 +794,8 @@ justify-content: space-between;
 
     ul{
 
-        background-color: black;
-        color: white;
+        
+        color: black;
         padding-block: 20px;
         
     
@@ -803,6 +809,11 @@ justify-content: space-between;
         text-align: center;
         width: 90%;
 
+     }
+
+     .subheading{
+
+        width: 90%;
      }
 
     .cta{
@@ -864,6 +875,41 @@ justify-content: space-between;
     .circle{
         background-color: #f6f6f6;
     }
+
+   .bio{
+
+    width: 80%;
+    text-align: center;
+   }
+
+  p{
+
+    text-align: center;
+  }
+
+  .headline-mission{
+    text-align: center;
+  }
+
+  .headline-vision{
+
+    text-align: center;
+  }
+
+  .design-process-section{
+
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  h1{
+
+    width: 80%;
+    line-height: 3rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
 
  }
 
