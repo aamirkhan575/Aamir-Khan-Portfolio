@@ -437,7 +437,7 @@ margin: 0 auto;
     transform: rotate(-120deg);
     width: auto;
     position: absolute;
-    top: 100 ;
+    top: 100;
     left: 300;   
     transition: 0.5s ease;
 }
@@ -920,6 +920,22 @@ justify-content: space-between;
        
     }
 
+    .design-process-paragraph{
+
+        text-align: center;
+        line-height:2rem;
+        
+        margin: 0 auto;
+        margin-bottom: 50px;
+
+        width: 80%;
+
+    
+        
+    
+        
+    }
+
     .circle{
         background-color: #f6f6f6;
     }
@@ -959,39 +975,13 @@ justify-content: space-between;
     margin-top: 50px;
   }
 
- 
-  .my-skills-section{
+
   
-    
-    background-color: #002bff;
-    display: grid;
-    grid-template-columns: repeat(1fr, 1fr, 1fr);
-  
+.figma-skills-logo{
 
-  }
-
-
-
-
-  .figma-skills-logo{
-
-    transform: rotate(0);
-    transition: 0.5s ease;
-
-    position: relative;
-
-    top: 0;
-    left: 0;
- 
-}
-
-.figma-skills-logo:hover{
-
-    
-    transform-style: flat;
-    transform-style: initial;
-    transition: 0.5s ease;
-    transform: scale(300%);
+   
+    top: 50;
+    left: 60;   
     
 }
 
@@ -999,198 +989,84 @@ justify-content: space-between;
 
 .premiere-skills-logo{
 
-   
-    transform: rotate(520deg);
-    transition: 0.5s ease;
-
-    position: relative;
-
-    top: 0;
-    left: 0;
-
+    top:40;
+    left: 200;
 }
 
-.premiere-skills-logo:hover{
-
-
-    transform-style: flat;
-    transform-style: initial;
-    transition: 0.5s ease;
-
-    transform: scale(300%);
-
-}
 
 .photoshop-skills-logo{
 
+    width: auto;
+    position: absolute;
+    top: 40;
+    left: 350;
 
     transform: rotate(140deg);
     transition: 0.5s ease;
-
-    position: relative;
-
-    top: 0;
-    left: 0;
 }
 
-.photoshop-skills-logo:hover{
-
-    transform-style: flat;
-    transform-style: initial;
-    transition: 0.5s ease;
-    transform: scale(300%);
-
-}
 
 .after-effects-skills-logo{
 
-    transform: rotate(-120deg);
-
-    
-    transition: 0.5s ease;
-
-    position: relative;
-
-    top: 0;
-    left: 0;
-}
-
-
-.after-effects-skills-logo:hover{
-
-
-    transform-style: flat;
-    transform-style: initial;
-    transition: 0.5s ease;
-
-    transform: scale(300%);
-    
+    top: 200;
+    left: 60;
 
 }
+
 
 .illustrator-skills-logo{
 
-    transform: rotate(100deg);
-    
-    transition: 0.5s ease;
-
-    position: relative;
-
-    top: 0;
-    left: 0;
+    top:180;
+    left: 200;
     
 }
 
-.illustrator-skills-logo:hover{
-
-    
-    transform-style: flat;
-    transform-style: initial;
-    transition: 0.5s ease;
-
-    transform: scale(300%);
-
-}
 
 .zeplin-skills-logo{
     
-
-    transform: rotate(90deg);
-   
-    transition: 0.5s ease;
-
-    position: relative;
-
-    top: 0;
-    left: 0;
+    top: 180;
+    left: 350;
 }
-
-.zeplin-skills-logo:hover{
-
-    transform-style: flat;
-    transform-style: initial;
-    transition: 0.5s ease;
-
-    transform: scale(300%);
-
-}
-
 
 
 .chatgpt-skills-logo{
 
-    transform: rotate(-140deg);
-
-    
-    transition: 0.5s ease;
-
-    position: relative;
-
-    top: 0;
-    left: 0;
-
-}
-
-.chatgpt-skills-logo:hover{
-
-    transform-style: flat;
-    transform-style: initial;
-    transition: 0.5s ease;
-
-    transform: scale(300%);
+    top: 350;
+    left: 50;
 
 }
 
 .mid-journey-skills-logo{
 
-    transform: rotate(120deg);
-    
-    transition: 0.5s ease;
+    top: 350;
+    left: 200;
 
-    position: relative;
-
-    top: 0;
-    left: 0;
     
 }
 
-.mid-journey-skills-logo:hover{
 
-    
-    transform-style: flat;
-    transform-style: initial;
-    transition: 0.5s ease;
-
-    transform: scale(300%);
-
-    
-
-}
 
 .wordpress-skills-logo{
     
-    transform: rotate(-120deg);
+    top: 330;
+    left: 350;
+
+ }
 
  
-     transition: 0.5s ease;
+.html-skills-logo{
 
-     position: relative;
+    top: 480;
+    left: 120;
 
-    top: 0;
-    left: 0;
- }
-
- .wordpress-skills-logo:hover{
-
-    transform-style: flat;
-    transform-style: initial;
-
-    transform: scale(350%);
- }
+}
 
 
+.css-skills-logo{
 
-
+    top: 480;
+    left: 280;
+}
 
  }
 
