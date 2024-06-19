@@ -417,12 +417,14 @@ margin: 0 auto;
 
     filter: grayscale(100%);
     
+    
 }
 
 
 .avatar:hover{
 
     filter: grayscale(0%);
+    
     
 }
 
@@ -685,7 +687,7 @@ margin: 0 auto;
 
 .contact-container{
 
-width: 80%;
+width: 90%;
 display: flex;
 flex-direction: column;
 
@@ -1069,6 +1071,7 @@ justify-content: space-between;
 
     top: 480;
     left: 280;
+
 }
 
 
