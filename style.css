@@ -122,17 +122,19 @@ ul li a{
 
     margin-bottom: 50px;
 
+
+
   
 
 }
 
 .project-cover{
+
     border-radius: 50px 0px 0px 50px;
     width: 100%;
-    
-    
-}
 
+
+}
 
 .project-description{
    
@@ -414,7 +416,7 @@ margin: 0 auto;
     filter: grayscale(100%);
 
     transition: 0.2s ease;
-    
+  
     
 }
 
@@ -425,7 +427,6 @@ margin: 0 auto;
     transform: rotate(-2deg);
 
     transition: 0.2s ease;
-    
     
 }
 
