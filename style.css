@@ -295,10 +295,11 @@ p{
     
     display: flex;
     flex-direction: row;
+    
     justify-content: center;
     flex-wrap: wrap;
 
-    gap: 40px;
+    gap: 30px;
     
 }
 
@@ -411,6 +412,8 @@ margin: 0 auto;
 .avatar{
 
     filter: grayscale(100%);
+
+    transition: 0.2s ease;
     
     
 }
@@ -419,6 +422,9 @@ margin: 0 auto;
 .avatar:hover{
 
     filter: grayscale(0%);
+    transform: rotate(-2deg);
+
+    transition: 0.2s ease;
     
     
 }
