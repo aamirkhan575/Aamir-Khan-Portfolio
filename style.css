@@ -28,13 +28,14 @@ html{
 
 
 .navigation{
+
     
     background-image: url(images/exploidee-background-light-mode-green-cyan.svg);
     background-repeat: no-repeat;
 
-    background-size: contain;
 
-    
+    background-size: cover;
+
     text-align: center;
 
 
@@ -50,8 +51,6 @@ html{
     margin-bottom: 20px;
 
     line-height: 4.5rem;
-    
-
     
  }
 
@@ -124,10 +123,6 @@ ul li a{
     margin: 0 auto;
 
     margin-bottom: 50px;
-
-
-
-  
 
 }
 
@@ -217,7 +212,7 @@ span{
 
 
 h1{
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -294,8 +289,6 @@ p{
 
 
 .design-process-section{
-
-    margin-bottom: 50px;
     
     
     display: flex;
