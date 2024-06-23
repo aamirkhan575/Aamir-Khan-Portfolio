@@ -361,13 +361,13 @@ p{
 
 
 .design-process-section{
+
+    width: 80%;
+    margin: 0 auto;
     
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     
-    display: flex;
-    flex-direction: row;
-    
-    justify-content: center;
-    flex-wrap: wrap;
 
     gap: 30px;
     
@@ -491,6 +491,14 @@ p{
 
 
 .circle{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    
     
     font-size: 12px;
     background-color: #fff;
@@ -498,9 +506,8 @@ p{
     border-radius: 50px;
     text-align: center;
     
-    padding: 100px 70px;
-
-    border: 0.5px solid #9d9d9d;
+    padding: 30px 70px;
+    /* border: 0.5px solid #9d9d9d; */
 
     transition: 0.5 ease;
         
@@ -508,14 +515,13 @@ p{
 
 .circle:hover{
     
-    background: linear-gradient(156deg, #52BBEF 0%, #10C690 100%);
+    background: var(--Gradient2, linear-gradient(181deg, #F3BA2F 0.91%, #000000 182.54%));
     transform: scale(1.1);
     color: #fff;
     transition: 0.5 ease;
     font-size: 12.1px;
-
-    
 }
+
 
 .about-me-section{
     
