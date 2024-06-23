@@ -70,6 +70,8 @@ html{
     margin-top: 40px;
     width: 100px;
     cursor: pointer;
+    animation: float-thumb 2.5s ease-in-out infinite;
+
 }
 
 .menu-options-container{
@@ -110,7 +112,27 @@ ul li a{
     
 }
 
-.project{
+.project-2million{
+    width: 80%; 
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+    gap: 50px;
+    
+    border: 0.5px solid #9d9d9d;
+    border-radius: 50px;
+
+    margin: 0 auto;
+
+    margin-bottom: 50px;
+}
+
+.project-2million:hover{
+
+    background: linear-gradient(180deg, #F3BA2F 0%, #ea781a 100%); 
+}
+
+.project-aMotors{
     width: 80%; 
 
     display: grid;
@@ -125,6 +147,55 @@ ul li a{
     margin-bottom: 50px;
 
 }
+
+.project-aMotors:hover{
+
+    background: linear-gradient(180deg,  #1AEAE9 0%, #7d2ff3 100%); 
+    
+}
+
+.project-sparkBank{
+    width: 80%; 
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+    gap: 50px;
+    
+    border: 0.5px solid #9d9d9d;
+    border-radius: 50px;
+
+    margin: 0 auto;
+
+    margin-bottom: 50px;
+
+}
+
+.project-sparkBank:hover{
+
+    background: linear-gradient(95deg, #2dccb9 0%, #ea781a 100%);
+}
+
+.project-workAspro{
+    width: 80%; 
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
+    gap: 50px;
+    
+    border: 0.5px solid #9d9d9d;
+    border-radius: 50px;
+
+    margin: 0 auto;
+
+    margin-bottom: 50px;
+
+}
+
+.project-workAspro:hover{
+
+    background: linear-gradient(-171deg, #52BBEF 7.01%, rgba(8, 73, 223, 0.1) 80.68%);
+}
+
 
 .project-cover{
 
@@ -165,8 +236,8 @@ ul li a{
 
 .btn-case-study{
     
-    background-color: black;
-    color: white;
+    background-color: #121212;
+    color: silver;
     padding: 20px 40px;
     margin-top: 100px;
     border-radius: 10px;
@@ -179,10 +250,11 @@ ul li a{
 
 .btn-case-study:hover{
 
-    background-color: white;
-    color: black;
-
+    background-color: black;
+    color: white;
     border: 1px solid black;
+
+    animation: float-thumb 2.5s ease-in-out infinite;
 
     
     cursor: pointer;
@@ -310,6 +382,115 @@ p{
 
 }
 
+
+
+.testimonial-section{
+
+    width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    gap: 30px;
+
+}
+
+.testimonial-debra{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 8px;
+    border-radius: 7.713px;
+    border-radius: 7.713px;
+    background: linear-gradient(171deg, #52BBEF 7.01%, rgba(239, 82, 167, 0.10) 80.68%);
+    padding: 80px 30px;
+    
+}
+
+
+.testimonial-kayle{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 8px;
+    border-radius: 7.713px;
+    background: linear-gradient(16deg, #F3BA2F -18.67%, #B9DCF0 69.29%);
+    padding: 80px 30px;
+    
+}
+
+.testimonial-lesile{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 8px;
+    border-radius: 7.713px;
+    background: var(--Gradient1, linear-gradient(180deg, #F3BA2F 0%, #D93BF8 100%));
+    padding: 80px 30px;
+    
+}
+
+.testimonial-paul{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 8px;
+    border-radius: 7.713px;
+    background: var(--Gradient2, linear-gradient(181deg, #F3BA2F 0.91%, #1AEAE9 182.54%));
+    padding: 80px 30px;
+    
+}
+
+
+.testimonial-thumb{
+
+    width: 120px;
+    margin: 0 auto;
+    animation: float-thumb 2.5s ease-in-out infinite;
+}
+
+@keyframes float-thumb{
+
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-.75rem);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.testimonial-name{
+
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.testimonial-msg{
+
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
 .circle{
     
     font-size: 12px;
@@ -410,7 +591,7 @@ margin: 0 auto;
     filter: grayscale(100%);
 
     transition: 0.2s ease;
-  
+
     
 }
 
@@ -420,7 +601,8 @@ margin: 0 auto;
     filter: grayscale(0%);
     transform: rotate(-2deg);
 
-    transition: 0.2s ease;
+    transition: .3s ease;
+
     
 }
 
@@ -441,7 +623,7 @@ margin: 0 auto;
     top: 100;
     left: 300;   
     transition: 0.5s ease;
-
+    
 }
 
 .figma-skills-logo:hover{
@@ -464,7 +646,7 @@ margin: 0 auto;
     left: 450;
     transform: rotate(520deg);
      transition: 0.5s ease;
-
+     
 }
 
 .premiere-skills-logo:hover{
@@ -487,6 +669,7 @@ margin: 0 auto;
 
     transform: rotate(140deg);
     transition: 0.5s ease;
+    
 }
 
 .photoshop-skills-logo:hover{
@@ -866,7 +1049,7 @@ justify-content: space-between;
 
 
      
-     .project{
+     .project-2million{
         border: none;
         text-align: center;
         
@@ -877,7 +1060,45 @@ justify-content: space-between;
         justify-content: center;
 
         margin-bottom: 100px;
+     }
 
+     .project-aMotors{
+        border: none;
+        text-align: center;
+        
+        width: 90%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-bottom: 100px;
+     }
+
+     .project-sparkBank{
+        border: none;
+        text-align: center;
+        
+        width: 90%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-bottom: 100px;
+     }
+
+     .project-workAspro{
+        border: none;
+        text-align: center;
+        
+        width: 90%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-bottom: 100px;
      }
 
 
@@ -887,6 +1108,7 @@ justify-content: space-between;
         flex-direction: column;
 
         text-align: center;
+
         
      }
 
