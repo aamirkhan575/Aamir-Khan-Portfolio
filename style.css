@@ -1021,12 +1021,13 @@ justify-content: space-between;
 
     ul{
 
-        
-        color: black;
+        background-color: white;
+        opacity: 80%;
         padding-block: 20px;
-        
     
+        
     }
+
 
     .statement{
         
@@ -1034,6 +1035,7 @@ justify-content: space-between;
         font-size: 3rem;
         text-align: center;
         width: 90%;
+        line-height: 3rem;
 
      }
 
@@ -1204,8 +1206,8 @@ justify-content: space-between;
 .figma-skills-logo{
 
    
-    top: 50;
-    left: 60;   
+    top: 30;
+    left: 55;   
     
 }
 
@@ -1228,7 +1230,7 @@ justify-content: space-between;
 
     
     top: 40;
-    left: 350;
+    left: 310;
 
 }
 
@@ -1236,7 +1238,7 @@ justify-content: space-between;
 .after-effects-skills-logo{
 
     top: 200;
-    left: 60;
+    left: 50;
 
 }
 
@@ -1252,7 +1254,7 @@ justify-content: space-between;
 .zeplin-skills-logo{
     
     top: 180;
-    left: 350;
+    left: 310;
 }
 
 
@@ -1273,7 +1275,7 @@ justify-content: space-between;
 .wordpress-skills-logo{
     
     top: 330;
-    left: 350;
+    left: 320;
 
  }
 
