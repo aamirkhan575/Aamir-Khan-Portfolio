@@ -963,6 +963,7 @@ justify-content: space-between;
     color: silver;
   }
 
+  
   .mob:hover{
 
     color: white;
@@ -987,7 +988,29 @@ justify-content: space-between;
     cursor: pointer;
   }
 
-  
+
+  .copyright-section{
+
+    display: flex;
+    width: 80%;
+
+    margin: 0 auto;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyright-txt{
+
+    font-size: 18px;
+
+    text-align: center;
+
+    color: gray;
+
+    margin-bottom: 60px;
+  }
+
 
 .cta {
     margin-top: 40px;
@@ -1358,10 +1381,34 @@ justify-content: space-between;
 
 
     .footer-contact-info{
+
+        margin-top: 30px;
         
         display: flex;
         flex-direction: column;
+        gap: 30px;
     }
+
+    .mob{
+
+        text-align: center;
+        
+      }
+      
+      .email{
+        text-align: center;
+      }
+      
+      .linkedin{
+        text-align: center;
+      }
+    
+      .resume{
+        text-align: center;
+      }
+    
+
+
 
  }
 
