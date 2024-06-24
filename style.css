@@ -150,7 +150,8 @@ ul li a{
 
 .project-aMotors:hover{
 
-    background: linear-gradient(180deg,  #1AEAE9 0%, #7d2ff3 100%); 
+
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     
 }
 
@@ -172,7 +173,7 @@ ul li a{
 
 .project-sparkBank:hover{
 
-    background: linear-gradient(95deg, #2dccb9 0%, #ea781a 100%);
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 .project-workAspro{
@@ -382,6 +383,38 @@ p{
 
 }
 
+.circle{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    font-size: 12px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+    text-align: center;
+    
+    padding: 30px 70px;
+    /* border: 0.5px solid #9d9d9d; */
+
+    transition: 0.5 ease;
+        
+}
+
+.circle:hover{
+    
+    background: var(--Gradient2, linear-gradient(181deg, #F3BA2F 0.91%, #000000 182.54%));
+    transform: scale(1.1);
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 12.1px;
+}
+
 
 .testimonial-section{
 
@@ -488,41 +521,6 @@ p{
     margin: 0 auto;
 }
 
-
-
-.circle{
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-    font-size: 12px;
-    background-color: #fff;
-    color: #000;
-    border-radius: 50px;
-    text-align: center;
-    
-    padding: 30px 70px;
-    /* border: 0.5px solid #9d9d9d; */
-
-    transition: 0.5 ease;
-        
-}
-
-.circle:hover{
-    
-    background: var(--Gradient2, linear-gradient(181deg, #F3BA2F 0.91%, #000000 182.54%));
-    transform: scale(1.1);
-    color: #fff;
-    transition: 0.5 ease;
-    font-size: 12.1px;
-}
-
-
 .about-me-section{
     
     margin-top: 50px;
@@ -567,11 +565,10 @@ p{
 
 .gender{
     
-    
     font: 20px;
     color: #9d9d9d;
     margin-top: -5px;
-    
+
 }
 
 .bio{
@@ -599,7 +596,6 @@ margin: 0 auto;
 
     transition: 0.2s ease;
 
-    
 }
 
 
@@ -914,9 +910,7 @@ justify-content: space-between;
     padding: 20px;
 
     width: 100%;
-    
-
-    
+        
 }
 
 
@@ -932,13 +926,67 @@ justify-content: space-between;
     width: 100%;
     cursor: pointer;
     
-    background-color: #000;
+    color: black;
+}
 
+.btn-send:hover{
+
+    background-color: #000;
     color: white;
 }
 
+.footer {
+    --c: 70px; /* control the curvature (works with percentage) */
+    height: 600px;
+    width: 90%;
 
+    display: flex;
+    flex-direction: column;
 
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    /* you can also update the 60%  */
+    mask: radial-gradient(60% var(--c) at 50% var(--c),#0000 calc(100% - 2px),#000) 0 calc(-1*var(--c));
+    /* background: -webkit-linear-gradient(80deg, #f6f6f6, #10C690); */
+    background-color: #121212;
+
+  }
+
+  .footer-contact-info{
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    color: silver;
+  }
+
+  .mob:hover{
+
+    color: white;
+    
+  }
+  
+  .email:hover{
+
+    color: white;
+    cursor: pointer;
+  }
+  
+  .linkedin:hover{
+
+    color: white;
+    cursor: pointer;
+  }
+
+  .resume:hover{
+
+    color: white;
+    cursor: pointer;
+  }
+  
 
 .cta {
     margin-top: 40px;
@@ -1159,12 +1207,12 @@ justify-content: space-between;
         margin: 0 auto;
         margin-bottom: 50px;
 
-        width: 80%;
+        width: 80%;    
+    }
 
-    
-        
-    
-        
+    .design-process-icon:hover{
+
+        animation: float-thumb 2.5s ease-in-out infinite;
     }
 
     .circle{
