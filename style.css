@@ -933,15 +933,11 @@ justify-content: space-between;
     padding: 20px;
     width: 100%;
     cursor: pointer;
-    
-    color: black;
-}
-
-.btn-send:hover{
-
     background-color: #000;
     color: white;
 }
+
+
 
 .footer {
     --c: 70px; /* control the curvature (works with percentage) */
@@ -971,13 +967,16 @@ justify-content: space-between;
     color: silver;
   }
 
+  .mob{
+
+    color: silver;
+  }
   
   .mob:hover{
 
     background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: white;
     
   }
   
