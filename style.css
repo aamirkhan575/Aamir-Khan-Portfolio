@@ -415,6 +415,14 @@ p{
     font-size: 12.1px;
 }
 
+.design-process-icon:hover{
+
+    animation: float-thumb 1s ease-in-out infinite;
+}
+
+
+
+
 
 .testimonial-section{
 
