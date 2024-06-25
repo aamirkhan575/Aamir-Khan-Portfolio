@@ -408,7 +408,7 @@ p{
 
 .circle:hover{
     
-    background: var(--Gradient2, linear-gradient(181deg, #F3BA2F 0.91%, #000000 182.54%));
+    background: var(--Gradient2, linear-gradient(181deg, #2fccf3 0.91%, #000000 182.54%));
     transform: scale(1.1);
     color: #fff;
     transition: 0.5 ease;
