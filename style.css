@@ -966,25 +966,34 @@ justify-content: space-between;
   
   .mob:hover{
 
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     color: white;
     
   }
   
   .email:hover{
 
-    color: white;
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     cursor: pointer;
   }
   
   .linkedin:hover{
 
-    color: white;
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     cursor: pointer;
   }
 
   .resume:hover{
 
-    color: white;
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     cursor: pointer;
   }
 
