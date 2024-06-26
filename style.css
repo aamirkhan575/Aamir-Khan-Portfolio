@@ -447,8 +447,12 @@ p{
     border-radius: 7.713px;
     background: linear-gradient(171deg, #52BBEF 7.01%, rgba(239, 82, 167, 0.10) 80.68%);
     padding: 80px 30px;
+
+    transform: perspective(300px) rotateY(30deg);
     
 }
+
+
 
 
 .testimonial-kayle{
@@ -488,6 +492,7 @@ p{
     background: var(--Gradient2, linear-gradient(181deg, #F3BA2F 0.91%, #1AEAE9 182.54%));
     padding: 80px 30px;
     
+    transform: perspective(300px) rotateY(-30deg);
 }
 
 
@@ -977,6 +982,7 @@ justify-content: space-between;
     background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: pointer;
     
   }
   
@@ -1106,12 +1112,6 @@ justify-content: space-between;
 
         text-align: center;
     }
-
-    .mob{
-
-        color: silver;
-    }
-
 
 
     ul{
@@ -1263,6 +1263,18 @@ justify-content: space-between;
     .circle{
         background-color: #f6f6f6;
     }
+
+
+    .testimonial-paul{
+
+        transform: perspective(0px) rotateY(0);
+    }
+
+    .testimonial-debra{
+
+        transform: perspective(0px) rotateY(0);
+    }
+
 
    .bio{
 
