@@ -78,6 +78,7 @@ html{
 
     margin-top: 50px;
     
+    
 }
 
 
@@ -88,23 +89,27 @@ ul{
     text-align: center;
     column-gap: 30px;
     margin-top: 20px;
-    
-   
 }
 
 
 ul li{
     text-decoration: none;
     list-style: none;
+    
 }
 
 ul li a{
     text-decoration: none;
-    color: #000;
+    color: black;
     cursor: pointer;
 }
 
+ul li a:hover{
 
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .projects-section{
   
@@ -319,6 +324,22 @@ p{
     
 }
 
+.mission{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 50px;
+    background: linear-gradient(156deg, #52BBEF 0%, #EF52A7 100%);
+
+}
+
+.mission-data{
+
+    position: sticky;
+    top: 20;
+    bottom: 400;
+}
 
 .vision{
    
@@ -327,8 +348,17 @@ p{
     justify-content: center; 
     padding: 50px;
     background: linear-gradient(180deg, #F3BA2F 0%, #1AEAE9 100%); 
-
 }
+
+
+.vision-data{
+
+    position: sticky;
+    top: 20;
+    bottom:5`0;
+}
+
+
 
 .featured-photo{
 
@@ -347,19 +377,6 @@ p{
     
 
 }
-
-
-
-.mission{
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    padding: 50px;
-    background: linear-gradient(156deg, #52BBEF 0%, #EF52A7 100%);
-
-}
-
 
 .design-process-section{
 
