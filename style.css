@@ -337,7 +337,7 @@ p{
 .mission-data{
 
     position: sticky;
-    top: 20;
+    top: 40;
     bottom: 400;
 }
 
@@ -354,8 +354,8 @@ p{
 .vision-data{
 
     position: sticky;
-    top: 20;
-    bottom:5`0;
+    top: 40;
+    bottom:50;
 }
 
 
@@ -962,7 +962,7 @@ justify-content: space-between;
 
 
 .footer {
-    --c: 70px; /* control the curvature (works with percentage) */
+    --c: 80px; /* control the curvature (works with percentage) */
     height: 600px;
     width: 90%;
 
@@ -978,15 +978,40 @@ justify-content: space-between;
     /* background: -webkit-linear-gradient(80deg, #f6f6f6, #10C690); */
     background-color: #121212;
 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  }
+
+  video{
+
+    width: 100%;
+
+    position: absolute;
+
+    margin: 0 auto;
+
+    background-size: contain;
+
+
+    opacity: 30%;
+    
+    
   }
 
   .footer-contact-info{
+
+    z-index: 1;
     margin-top: 100px;
 
     display: flex;
     flex-direction: row;
     gap: 100px;
     color: silver;
+  }
+
+  .logo-section{
+
+    z-index: 1;
   }
 
   .mob{
@@ -1181,6 +1206,7 @@ justify-content: space-between;
         justify-content: center;
 
         margin-bottom: 100px;
+        background: linear-gradient(180deg, #F3BA2F 0%, #ea781a 100%); 
      }
 
      .project-aMotors{
@@ -1194,6 +1220,8 @@ justify-content: space-between;
         justify-content: center;
 
         margin-bottom: 100px;
+
+        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
      }
 
      .project-sparkBank{
@@ -1207,6 +1235,8 @@ justify-content: space-between;
         justify-content: center;
 
         margin-bottom: 100px;
+
+        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
      }
 
      .project-workAspro{
@@ -1220,6 +1250,8 @@ justify-content: space-between;
         justify-content: center;
 
         margin-bottom: 100px;
+
+        background: linear-gradient(-171deg, #52BBEF 7.01%, rgba(8, 73, 223, 0.1) 80.68%);
      }
 
 
@@ -1442,8 +1474,10 @@ justify-content: space-between;
     .mob{
 
         text-align: center;
+        color: silver;
         
       }
+
       
       .email{
         text-align: center;
