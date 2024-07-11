@@ -549,6 +549,18 @@ p{
 
 }
 
+.testimonial-role{
+
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Pano';
+
+    margin-top: -20px;
+}
+
+
+
 .testimonial-msg{
 
     font-size: 17px;
