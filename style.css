@@ -29,7 +29,6 @@ html{
 
 .navigation{
 
-    
     background-image: url(images/exploidee-background-light-mode-green-cyan.svg);
     background-repeat: no-repeat;
 
@@ -413,6 +412,7 @@ p{
     
 }
 
+
 .design-process-paragraph{
 
     text-align: center;
@@ -422,14 +422,13 @@ p{
 
 }
 
-.circle{
+.circle1{
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 50px;
     justify-content: center;
     align-items: center;
-    
     
     
     font-size: 12px;
@@ -445,7 +444,96 @@ p{
         
 }
 
-.circle:hover{
+
+.circle2{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    font-size: 12px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+    text-align: center;
+    
+    padding: 30px 70px;
+    /* border: 0.5px solid #9d9d9d; */
+
+    transition: 0.5 ease;
+        
+}
+
+.circle3{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    font-size: 12px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+    text-align: center;
+    
+    padding: 30px 70px;
+    /* border: 0.5px solid #9d9d9d; */
+
+    transition: 0.5 ease;
+        
+}
+
+.circle4{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    font-size: 12px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+    text-align: center;
+    
+    padding: 30px 70px;
+    /* border: 0.5px solid #9d9d9d; */
+
+    transition: 0.5 ease;
+        
+}
+
+.circle5{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    font-size: 12px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+    text-align: center;
+    
+    padding: 30px 70px;
+    /* border: 0.5px solid #9d9d9d; */
+
+    transition: 0.5 ease;
+        
+}
+
+.circle1:hover{
     
     background: var(--Gradient2, linear-gradient(181deg, #2fccf3 0.91%, #000000 182.54%));
     transform: scale(1.1);
@@ -454,19 +542,66 @@ p{
     font-size: 12.1px;
 }
 
+.circle1:hover .design-process-icon{
+    animation: float-thumb 2.5s ease-in-out infinite;
+}
+
+.circle2:hover{
+    
+    background: var(--Gradient2, linear-gradient(181deg, #2fccf3 0.91%, #000000 182.54%));
+    transform: scale(1.1);
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 12.1px;
+}
+
+.circle2:hover .design-process-icon{
+    animation: float-thumb 2.5s ease-in-out infinite;
+}
+
+.circle3:hover{
+    
+    background: var(--Gradient2, linear-gradient(181deg, #2fccf3 0.91%, #000000 182.54%));
+    transform: scale(1.1);
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 12.1px;
+}
+.circle3:hover .design-process-icon{
+    animation: float-thumb 2.5s ease-in-out infinite;
+}
+
+.circle4:hover{
+    
+    background: var(--Gradient2, linear-gradient(181deg, #2fccf3 0.91%, #000000 182.54%));
+    transform: scale(1.1);
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 12.1px;
+}
+
+.circle4:hover .design-process-icon{
+    animation: float-thumb 2.5s ease-in-out infinite;
+}
+
+.circle5:hover{
+    
+    background: var(--Gradient2, linear-gradient(181deg, #2fccf3 0.91%, #000000 182.54%));
+    transform: scale(1.1);
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 12.1px;
+}
+
+.circle5:hover .design-process-icon{
+    animation: float-thumb 2.5s ease-in-out infinite;
+}
+
 .design-process-icon{
 
     width: 100%;
     height: 100%;
 }
-
-.design-process-icon:hover{
-
-    animation: float-thumb 1s ease-in-out infinite;
-}
-
-
-
 
 
 .testimonial-section{
@@ -1027,8 +1162,8 @@ justify-content: space-between;
     margin: 0 auto;
     /* you can also update the 60%  */
     mask: radial-gradient(60% var(--c) at 50% var(--c),#0000 calc(100% - 2px),#000) 0 calc(-1*var(--c));
-    /* background: -webkit-linear-gradient(80deg, #f6f6f6, #10C690); */
     background-color: #121212;
+    /* background: radial-gradient(123% 83.51% at 85.59% 12.93%, #FFDDDD 0%, #D7C4FF 52.6%, #D7F0FF 100%); */
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -1114,7 +1249,7 @@ justify-content: space-between;
     height: 70px;
     border: none;
     outline: none;
-    color: #fff;
+    color: white;
     background: #111;
     cursor: pointer;
     position: relative;
@@ -1217,8 +1352,12 @@ justify-content: space-between;
      .aamir-khan-avatar{
 
         width: 80%;
-        
-     }
+    
+        filter: grayscale(0%);
+        transform: rotate(0deg);
+       
+    }
+    
 
     .cta{
 
@@ -1340,6 +1479,7 @@ justify-content: space-between;
        
     }
 
+
     .design-process-paragraph{
 
         text-align: center;
@@ -1355,11 +1495,6 @@ justify-content: space-between;
 
         animation: float-thumb 2.5s ease-in-out infinite;
     }
-
-    .circle{
-        background-color: #f6f6f6;
-    }
-
 
     .testimonial-soni{
 
