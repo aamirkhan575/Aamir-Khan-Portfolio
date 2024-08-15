@@ -239,7 +239,7 @@ ul li a:hover{
     align-self: center;
 
     width: 95%;
-    
+
 }
 
 
@@ -617,6 +617,7 @@ p{
 
 }
 
+
 .testimonial-reet{
 
     display: flex;
@@ -624,13 +625,11 @@ p{
     gap: 20px;
 
     border-radius: 8px;
-    border-radius: 7.713px;
-    border-radius: 7.713px;
+  
     background: linear-gradient(171deg, #52BBEF 7.01%, rgba(239, 82, 167, 0.10) 80.68%);
     padding: 80px 30px;
 
-    transform: perspective(300px) rotateY(30deg);
-    
+    /* transform: perspective(300px) rotateY(30deg); */
 }
 
 
@@ -643,7 +642,7 @@ p{
     gap: 20px;
 
     border-radius: 8px;
-    border-radius: 7.713px;
+    
     background: linear-gradient(16deg, #F3BA2F -18.67%, #B9DCF0 69.29%);
     padding: 80px 30px;
     
@@ -656,7 +655,7 @@ p{
     gap: 20px;
 
     border-radius: 8px;
-    border-radius: 7.713px;
+
     background: var(--Gradient1, linear-gradient(180deg, #F3BA2F 0%, #D93BF8 100%));
     padding: 80px 30px;
     
@@ -669,11 +668,11 @@ p{
     gap: 20px;
 
     border-radius: 8px;
-    border-radius: 7.713px;
+    
     background: var(--Gradient2, linear-gradient(181deg, #F3BA2F 0.91%, #1AEAE9 182.54%));
     padding: 80px 30px;
     
-    transform: perspective(300px) rotateY(-30deg);
+    /* transform: perspective(300px) rotateY(-30deg); */
 }
 
 
@@ -825,6 +824,7 @@ margin: 0 auto;
     
 }
 
+
 .figma-skills-logo{
 
     transform: rotate(-120deg);
@@ -838,7 +838,6 @@ margin: 0 auto;
 
 .figma-skills-logo:hover{
 
-    
     transform-style: flat;
     transform-style: initial;
     transition: 0.5s ease;
@@ -846,6 +845,15 @@ margin: 0 auto;
     
 }
 
+.lblFigma{
+
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Pano';
+    top: 180;
+    left: 290;
+    
+}
 
 
 .premiere-skills-logo{
@@ -870,6 +878,17 @@ margin: 0 auto;
 
 }
 
+.lblPremiere{
+
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Pano';
+
+    top:590;
+    left: 420;
+
+}
+
 .photoshop-skills-logo{
 
     width: auto;
@@ -888,6 +907,18 @@ margin: 0 auto;
     transform-style: initial;
     transition: 0.5s ease;
     transform: scale(300%);
+
+}
+
+.lblPhotoshop{
+
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Pano';
+
+    top: 335;
+    left: 960;
+
 
 }
 
@@ -912,7 +943,16 @@ margin: 0 auto;
 
     transform: scale(300%);
     
+}
 
+.lblAfterEffects{
+
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Pano';
+
+    top: 180;
+    left: 1050;
 }
 
 .illustrator-skills-logo{
@@ -937,6 +977,19 @@ margin: 0 auto;
 
 }
 
+
+.lblIllustrator{
+
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Pano';
+
+    top: 255;
+    left: 500; 
+
+}
+
+
 .zeplin-skills-logo{
     width: auto;
     position: absolute;
@@ -959,6 +1012,17 @@ margin: 0 auto;
 }
 
 
+.lblZeplin{
+
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Pano';
+
+    top: 375;
+    left: 360;
+
+
+}
 
 
 
@@ -986,6 +1050,18 @@ margin: 0 auto;
 
 }
 
+
+.lblChatGPT{
+
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Pano';
+
+    top: 405;
+    left: 800;
+
+}
+
 .mid-journey-skills-logo{
 
     transform: rotate(120deg);
@@ -1010,6 +1086,17 @@ margin: 0 auto;
 
 }
 
+.lblMidjourney{
+
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Pano';
+
+    top: 440;
+    left: 1140;
+
+}
+
 .wordpress-skills-logo{
     
     transform: rotate(130deg);
@@ -1029,6 +1116,19 @@ margin: 0 auto;
 
     transform: scale(350%);
  }
+
+
+
+ .lblWordpress{
+
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Pano';
+
+    top: 435;
+    left: 590;
+
+}
 
 
 .html-skills-logo{
@@ -1052,6 +1152,17 @@ margin: 0 auto;
     transform: scale(250%);
 }
 
+.lblHTML{
+
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Pano';
+
+    top: 510;
+    left: 970;
+
+}
+
 
 
 .css-skills-logo{
@@ -1071,6 +1182,16 @@ margin: 0 auto;
     transform-style: initial;
 
     transform: scale(250%);
+}
+
+.lblCSS{
+
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Pano';
+
+    top: 185;
+    left: 810;
 }
 
  
