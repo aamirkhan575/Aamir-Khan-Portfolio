@@ -617,25 +617,20 @@ p{
 
 }
 
-
-.testimonial-reet{
+.testimonial-hamad{
 
     display: flex;
     flex-direction: column;
     gap: 20px;
 
     border-radius: 8px;
-  
-    background: linear-gradient(171deg, #52BBEF 7.01%, rgba(239, 82, 167, 0.10) 80.68%);
+    
+    background: #f6f6f6;
     padding: 80px 30px;
-
-    /* transform: perspective(300px) rotateY(30deg); */
+    
 }
 
-
-
-
-.testimonial-hamad{
+.testimonial-hamad:hover{
 
     display: flex;
     flex-direction: column;
@@ -648,7 +643,61 @@ p{
     
 }
 
+.testimonial-hamad:hover .testimonial-thumb{
+
+    animation: float-thumb 1.5s ease-in-out infinite;
+}
+
+
+
+.testimonial-reet{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 8px;
+  
+    background: #f6f6f6;
+    padding: 80px 30px;
+
+}
+
+
+.testimonial-reet:hover{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 8px;
+  
+    background: linear-gradient(171deg, #52BBEF 7.01%, rgba(239, 82, 167, 0.10) 80.68%);
+    padding: 80px 30px;
+    
+}
+
+.testimonial-reet:hover .testimonial-thumb{
+
+    animation: float-thumb 1.5s ease-in-out infinite;
+}
+
+
+
 .testimonial-saqib{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 8px;
+
+    background: #f6f6f6;
+    padding: 80px 30px;
+    
+}
+
+.testimonial-saqib:hover{
 
     display: flex;
     flex-direction: column;
@@ -661,7 +710,26 @@ p{
     
 }
 
+.testimonial-saqib:hover .testimonial-thumb{
+
+    animation: float-thumb 1.5s ease-in-out infinite;
+}
+
+
 .testimonial-soni{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 8px;
+    
+    background: #f6f6f6;
+    padding: 80px 30px;
+    
+}
+
+.testimonial-soni:hover{
 
     display: flex;
     flex-direction: column;
@@ -672,7 +740,11 @@ p{
     background: var(--Gradient2, linear-gradient(181deg, #F3BA2F 0.91%, #1AEAE9 182.54%));
     padding: 80px 30px;
     
-    /* transform: perspective(300px) rotateY(-30deg); */
+}
+
+.testimonial-soni:hover .testimonial-thumb{
+
+    animation: float-thumb 1.5s ease-in-out infinite;
 }
 
 
@@ -680,7 +752,6 @@ p{
 
     width: 120px;
     margin: 0 auto;
-    animation: float-thumb 2.5s ease-in-out infinite;
 }
 
 @keyframes float-thumb{
