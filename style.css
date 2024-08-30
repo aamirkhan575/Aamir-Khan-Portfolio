@@ -617,11 +617,20 @@ p{
 
 }
 
+
+.testimonial-hamad:hover .testimonial-msg{
+
+    display: block;
+}
+
 .testimonial-hamad{
 
     display: flex;
     flex-direction: column;
-    gap: 20px;
+
+    justify-content: center;
+
+    gap: 10px;
 
     border-radius: 8px;
     
@@ -634,7 +643,7 @@ p{
 
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 
     border-radius: 8px;
     
@@ -721,7 +730,6 @@ p{
     display: flex;
     flex-direction: column;
     gap: 20px;
-
     border-radius: 8px;
     
     background: #f6f6f6;
@@ -784,10 +792,8 @@ p{
     text-align: center;
     font-family: 'Pano';
 
-    margin-top: -20px;
+    
 }
-
-
 
 .testimonial-msg{
 
