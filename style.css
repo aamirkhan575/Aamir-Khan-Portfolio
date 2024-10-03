@@ -25,7 +25,17 @@ html{
     
 }
 
+.hero-section{
 
+    background-image: url(images/exploidee-background-light-mode-green-cyan.svg);
+    background-repeat: no-repeat;
+
+
+    background-size: cover;
+
+    text-align: center;
+
+}
 
 .navigation{
 
@@ -64,6 +74,8 @@ html{
  }
 
 
+
+
 .logo{
     
     margin-top: 40px;
@@ -73,10 +85,9 @@ html{
 
 }
 
-.menu-options-container{
+.navBar{
 
     margin-top: 50px;
-    
     
 }
 
@@ -88,6 +99,7 @@ ul{
     text-align: center;
     column-gap: 30px;
     margin-top: 20px;
+
 }
 
 
@@ -101,6 +113,7 @@ ul li a{
     text-decoration: none;
     color: black;
     cursor: pointer;
+    
 }
 
 ul li a:hover{
@@ -1378,11 +1391,6 @@ justify-content: space-between;
     flex-direction: row;
     gap: 100px;
     color: silver;
-  }
-
-  .logo-section{
-
-    z-index: 1;
   }
 
   
