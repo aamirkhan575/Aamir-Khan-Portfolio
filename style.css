@@ -52,12 +52,13 @@ html{
 
 .statement{
     margin: 0 auto;
-    font-size: 4rem;
+    font-size: 3rem;
     
     width: 80%;
 
     margin-top: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+
 
     line-height: 4.5rem;
     
@@ -70,9 +71,9 @@ html{
     max-width: 20ch;
     text-align: center;
     line-height: 3rem;
-    font-weight: 100;
+    font-weight: 10;
+    font-size: 1.8rem;
  }
-
 
 
 
@@ -872,6 +873,8 @@ p{
     max-width: 40ch;
     padding-inline: 100px;
     text-align: left;
+    
+
 }
 
 .AI-Avatars{
