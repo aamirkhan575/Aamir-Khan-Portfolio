@@ -641,13 +641,10 @@ p{
 
     display: flex;
     flex-direction: column;
-
-    justify-content: center;
-
-    gap: 10px;
+    gap: 20px;
 
     border-radius: 8px;
-    
+  
     background: #f6f6f6;
     padding: 80px 30px;
     
@@ -657,7 +654,7 @@ p{
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 
     border-radius: 8px;
     
@@ -797,16 +794,6 @@ p{
     text-align: center;
     margin: 0 auto;
 
-}
-
-.testimonial-role{
-
-    font-size: 13px;
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'Pano';
-
-    
 }
 
 .testimonial-msg{
