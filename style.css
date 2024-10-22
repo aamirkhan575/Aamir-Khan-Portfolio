@@ -52,15 +52,15 @@ html{
 
 .statement{
     margin: 0 auto;
-    font-size: 3rem;
+    font-size: 5rem;
     
-    width: 80%;
+    width: 40%;
 
-    margin-top: 150px;
+    margin-top: 130px;
     margin-bottom: 15px;
 
 
-    line-height: 4.5rem;
+    line-height: 5rem;
     
  }
 
@@ -68,11 +68,9 @@ html{
  .subheading{
 
     margin: 0 auto;
-    max-width: 20ch;
     text-align: center;
-    line-height: 3rem;
-    font-weight: 10;
-    font-size: 1.8rem;
+    width: 40%;
+  
  }
 
 
@@ -631,11 +629,6 @@ p{
 
 }
 
-
-.testimonial-hamad:hover .testimonial-msg{
-
-    display: block;
-}
 
 .testimonial-hamad{
 
