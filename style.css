@@ -236,7 +236,7 @@ ul li a:hover{
 }
 
 
-.project-cover{
+.project-thumb{
 
     border-radius: 50px 0px 0px 50px;
     width: 100%;
@@ -247,10 +247,9 @@ ul li a:hover{
 .project-description{
    
     text-align: left;
-    
     align-self: center;
 
-    width: 95%;
+    width: 75%;
 
 }
 
@@ -370,8 +369,8 @@ p{
 .mission-data{
 
     position: sticky;
-    top: 40;
-    bottom: 400;
+    top: 40px;
+    bottom: 400px;
 }
 
 .vision{
@@ -387,8 +386,8 @@ p{
 .vision-data{
 
     position: sticky;
-    top: 40;
-    bottom:50;
+    top: 40px;
+    bottom:50px;
 }
 
 
@@ -397,9 +396,6 @@ p{
 
     transform: scale(1);
     transition: 0.5s ease;
-    
-
-    
 }
 
 
@@ -808,7 +804,7 @@ p{
 
 }
 
-.aamir-khan-avatar{
+.Aamir-Khan-Avatar{
 
     width: 35%;
 
@@ -818,7 +814,7 @@ p{
 
 }
 
-.aamir-khan-avatar:hover{
+.Aamir-Khan-Avatar:hover{
 
     transform: scale(1.05);
     filter: grayscale(0%);
@@ -903,8 +899,8 @@ margin: 0 auto;
     transform: rotate(-120deg);
     width: auto;
     position: absolute;
-    top: 100;
-    left: 300;   
+    top: 100px;
+    left: 300px;   
     transition: 0.5s ease;
     
 }
@@ -923,8 +919,8 @@ margin: 0 auto;
     position: absolute;
     font-size: 12px;
     font-family: 'Pano';
-    top: 180;
-    left: 290;
+    top: 180px;
+    left: 290px;
     
 }
 
@@ -933,8 +929,8 @@ margin: 0 auto;
 
     width: auto;
     position: absolute;
-    top:500;
-    left: 450;
+    top:500px;
+    left: 450px;
     transform: rotate(520deg);
      transition: 0.5s ease;
      
@@ -957,8 +953,8 @@ margin: 0 auto;
     font-size: 12px;
     font-family: 'Pano';
 
-    top:590;
-    left: 420;
+    top:590px;
+    left: 420px;
 
 }
 
@@ -966,8 +962,8 @@ margin: 0 auto;
 
     width: auto;
     position: absolute;
-    top: 250;
-    left: 1000;
+    top: 250px;
+    left: 1000px;
 
     transform: rotate(140deg);
     transition: 0.5s ease;
@@ -989,8 +985,8 @@ margin: 0 auto;
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 335;
-    left: 960;
+    top: 335px;
+    left: 960px;
 
 
 }
@@ -1001,8 +997,8 @@ margin: 0 auto;
 
     width: auto;
     position: absolute;
-    top: 90;
-    left: 1100;
+    top: 90px;
+    left: 1100px;
     transition: 0.5s ease;
 }
 
@@ -1024,8 +1020,8 @@ margin: 0 auto;
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 180;
-    left: 1050;
+    top: 180px;
+    left: 1050px;
 }
 
 .illustrator-skills-logo{
@@ -1033,8 +1029,8 @@ margin: 0 auto;
     transform: rotate(100deg);
     width: auto;
     position: absolute;
-    top: 170;
-    left: 530;
+    top: 170px;
+    left: 530px;
     transition: 0.5s ease;
     
 }
@@ -1057,8 +1053,8 @@ margin: 0 auto;
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 255;
-    left: 500; 
+    top: 255px;
+    left: 500px; 
 
 }
 
@@ -1066,8 +1062,8 @@ margin: 0 auto;
 .zeplin-skills-logo{
     width: auto;
     position: absolute;
-    top: 300;
-    left: 350;
+    top: 300px;
+    left: 350px;
 
     transform: rotate(90deg);
    
@@ -1091,8 +1087,8 @@ margin: 0 auto;
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 375;
-    left: 360;
+    top: 375px;
+    left: 360px;
 
 
 }
@@ -1105,8 +1101,8 @@ margin: 0 auto;
 
     width: auto;
     position: absolute;
-    top: 320;
-    left: 800;
+    top: 320px;
+    left: 800px;
 
     
     transition: 0.5s ease;
@@ -1130,8 +1126,8 @@ margin: 0 auto;
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 405;
-    left: 800;
+    top: 405px;
+    left: 800px;
 
 }
 
@@ -1141,8 +1137,8 @@ margin: 0 auto;
 
     width: auto;
     position: absolute;
-    top: 378;
-    left: 1150;
+    top: 378px;
+    left: 1150px;
     
     transition: 0.5s ease;
     
@@ -1165,8 +1161,8 @@ margin: 0 auto;
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 440;
-    left: 1140;
+    top: 440px;
+    left: 1140px;
 
 }
 
@@ -1176,8 +1172,8 @@ margin: 0 auto;
  
      width: auto;
      position: absolute;
-     top: 350;
-     left: 600;
+     top: 350px;
+     left: 600px;
  
      transition: 0.5s ease;
  }
@@ -1198,8 +1194,8 @@ margin: 0 auto;
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 435;
-    left: 590;
+    top: 435px;
+    left: 590px;
 
 }
 
@@ -1210,8 +1206,8 @@ margin: 0 auto;
  
      width: auto;
      position: absolute;
-     top: 420;
-     left: 950;
+     top: 420px;
+     left: 950px;
  
      transition: 0.5s ease;
 
@@ -1231,8 +1227,8 @@ margin: 0 auto;
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 510;
-    left: 970;
+    top: 510px;
+    left: 970px;
 
 }
 
@@ -1244,8 +1240,8 @@ margin: 0 auto;
 
     width: auto;
     position: absolute;
-    top: 100;
-    left: 800;
+    top: 100px;
+    left: 800px;
     transition: 0.5s ease;
 }
 
@@ -1263,8 +1259,8 @@ margin: 0 auto;
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 185;
-    left: 810;
+    top: 185px;
+    left: 810px;
 }
 
  
