@@ -214,7 +214,7 @@ ul li a:hover{
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
-.project-workAspro{
+.project-tnt{
     width: 80%; 
 
     display: grid;
@@ -230,7 +230,7 @@ ul li a:hover{
 
 }
 
-.project-workAspro:hover{
+.project-tnt:hover{
 
     background: linear-gradient(-171deg, #52BBEF 7.01%, rgba(8, 73, 223, 0.1) 80.68%);
 }
@@ -1488,6 +1488,17 @@ justify-content: space-between;
 }
 
 
+
+.nova:hover{
+
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+
+}
+
+
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
@@ -1612,7 +1623,7 @@ justify-content: space-between;
         background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
      }
 
-     .project-workAspro{
+     .project-tnt{
         border: none;
         text-align: center;
         
