@@ -276,9 +276,8 @@ ul li a:hover{
     font-size: 16px;
     cursor: pointer;
     border: none;
-    
-    
 }
+
 
 .btn-case-study:hover{
 
@@ -293,18 +292,14 @@ ul li a:hover{
 }
 
 
-
 img{
     width: 100%;
 }
-
-
 
 .heading{
     text-align: center;
     margin-top: 30px;
 }
-
 
 
 span{
@@ -340,8 +335,6 @@ p{
     
 }
 
-
-    
 
 .vision-mission{
     display: grid;
@@ -385,7 +378,6 @@ p{
 }
 
 
-
 .featured-photo{
 
     transform: scale(1);
@@ -398,7 +390,6 @@ p{
     transform: scale(1.05);
     transition: 0.5s ease;
     
-
 }
 
 .design-process-section{
@@ -815,11 +806,6 @@ p{
     transform: rotate(0deg);
 
     transition: 0.5s ease;    
-}
-
-.Aamir-Intro-IMG{
-
-    cursor: pointer;
 }
 
 
