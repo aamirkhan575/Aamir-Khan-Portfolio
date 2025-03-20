@@ -208,28 +208,6 @@ ul li a:hover{
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
-.project-tnt{
-    width: 80%; 
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
-    gap: 50px;
-    
-    border: 0.5px solid #9d9d9d;
-    border-radius: 50px;
-
-    margin: 0 auto;
-
-    margin-bottom: 50px;
-
-}
-
-.project-tnt:hover{
-
-    background: linear-gradient(-171deg, #52BBEF 7.01%, rgba(8, 73, 223, 0.1) 80.68%);
-}
-
-
 .project-thumb{
 
     border-radius: 50px 0px 0px 50px;
@@ -1603,20 +1581,7 @@ justify-content: space-between;
         background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
      }
 
-     .project-tnt{
-        border: none;
-        text-align: center;
-        
-        width: 90%;
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        margin-bottom: 100px;
-
-        background: linear-gradient(-171deg, #52BBEF 7.01%, rgba(8, 73, 223, 0.1) 80.68%);
-     }
+     
 
 
      .project-description{
