@@ -1507,7 +1507,9 @@ justify-content: space-between;
 
      .aamir-khan-avatar{
 
-        width: 80%;
+        margin: 0 auto;
+
+        width: 90%;
     
         filter: grayscale(0%);
         transform: rotate(0deg);
