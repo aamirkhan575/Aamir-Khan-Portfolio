@@ -1505,20 +1505,13 @@ justify-content: space-between;
         width: 90%;
      }
 
-     .aamir-khan-avatar{
+     .Aamir-Khan-Avatar{
 
-        margin: 0 auto;
-
-        width: 90%;
+        width: 80%;
     
         filter: grayscale(0%);
         transform: rotate(0deg);
        
-    }
-
-    .Aamir-Intro-IMG{
-
-        margin: 0 auto;
     }
     
 
