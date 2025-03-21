@@ -1507,16 +1507,11 @@ justify-content: space-between;
 
      .aamir-khan-avatar{
 
-      
+        width: 80%;
     
         filter: grayscale(0%);
         transform: rotate(0deg);
        
-    }
-
-    .Aamir-Intro-IMG{
-
-        width: 200%;
     }
     
 
