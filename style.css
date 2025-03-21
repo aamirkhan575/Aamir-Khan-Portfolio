@@ -770,8 +770,6 @@ p{
 
 .Aamir-Khan-Avatar{
 
-    width: 35%;
-
     filter: grayscale(100%);
     transition: 0.5s ease;
     transform: rotate(-180deg);
@@ -1505,14 +1503,7 @@ justify-content: space-between;
         width: 90%;
      }
 
-     .Aamir-Khan-Avatar{
-
-        width: 80%;
-    
-        filter: grayscale(0%);
-        transform: rotate(0deg);
-       
-    }
+     
     
 
     .cta{
