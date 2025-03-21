@@ -37,15 +37,15 @@ html{
 }
 
 .hero-content{
-
-    padding-top: 150px;
-    padding-bottom: 230px;
+    
 }
 
 
 .statement{
     margin: 0 auto;
     font-size: 5rem;
+
+    margin-top: 100px;
     
     width: 40%;
     line-height: 5rem;
@@ -1447,7 +1447,7 @@ justify-content: space-between;
 }
 
 
-.nova:hover{
+.designerTag:hover{
 
     background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
   -webkit-background-clip: text;
