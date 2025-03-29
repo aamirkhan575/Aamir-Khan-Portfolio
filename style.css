@@ -36,10 +36,6 @@ html{
 
 }
 
-.hero-content{
-    
-}
-
 
 .statement{
     margin: 0 auto;
@@ -180,6 +176,7 @@ ul li a:hover{
 
 }
 
+
 .project-aMotors:hover{
 
 
@@ -227,6 +224,7 @@ ul li a:hover{
 
 
 .project-title{
+
     font-size: 28px;
     text-align: left;
     margin-top: 0px;
@@ -235,12 +233,10 @@ ul li a:hover{
 }
 
 .project-paragraph{
+
     font-size: 20px;
     text-align: left;
     margin-left: 0;
-    
-    
-    
 }
 
 
@@ -434,8 +430,7 @@ p{
     padding: 30px 70px;
     /* border: 0.5px solid #9d9d9d; */
 
-    transition: 0.5 ease;
-        
+    transition: 0.5 ease;  
 }
 
 .circle3{
