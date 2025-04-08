@@ -164,7 +164,7 @@
 <div class="about-me-section">
 
     <div class="Aamir-Khan-Avatar"> 
-        <img src="images/Aamir-Khan-Featured-Photo.svg" alt="Aamir Khan AI Avatar" class="Aamir-Intro-IMG">
+        <img src="images/Aamir-Khan-Featured-Photo.svg" alt="Aamir Khan AI Avatar" class="rotate-on-scroll  ">
         
         </div>
 
@@ -179,6 +179,21 @@
 
 
 </div>
+
+
+<!-- Rotating Photo-->
+<script>
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY;
+      const image = document.querySelector('.rotate-on-scroll');
+  
+      // Rotation angle (in degrees)
+      const rotation = scrollY * 0.6; // Adjust multiplier for faster/slower spin
+
+  
+      image.style.transform = `rotate(${rotation}deg)`;
+    });
+  </script>
 
 
 

@@ -767,7 +767,7 @@ p{
 
     filter: grayscale(100%);
     transition: 0.5s ease;
-    transform: rotate(-180deg);
+    /*transform: rotate(-180deg); */
 
 }
 
@@ -775,10 +775,18 @@ p{
 
     transform: scale(1.05);
     filter: grayscale(0%);
-    transform: rotate(0deg);
+    /* transform: rotate(0deg); */
 
-    transition: 0.5s ease;    
+     transition: 0.5s ease;     
 }
+
+.rotate-on-scroll {
+    width: 100%; /* Adjust as needed */
+    transition: transform 0.1s linear;
+
+    display: block;
+    margin: 50px auto; /* center the image */
+  } 
 
 
 .name{
