@@ -38,32 +38,79 @@
 <body>
 
 
-    <div class="hero-section">
+
+
+
+    <div class="background">
+
+        <img src="images/exploidee-background-light-mode-green-cyan.svg" alt="background" class="back-image">
+
+    </div> 
+
+    <div class="header">
 
         <div class="logo-section">
-            
-            <div class="logo-section"> <img src="logos/logo-aamir-khan.svg" alt="Aamir-Khan-Logo" class="logo"> </div>
+
+            <img src="logos/logo-aamir-khan.svg" alt="Aamir Logo" class="logo">
 
         </div>
 
-        
-        <div class="navBar">   <ul>
-            <li> <a href="#">Home</a> </li> 
-            <li> <a href="#work">Work</a> </li> 
-            <li> <a href="#about">About</a> </li>
-        </ul>
-        </div>
+        <div class="menu-section"> 
 
+        <li>
+            <ul>
+                <a href="#work"> Work </a>
+                <a href="#about"> About </a>
+                <a href="#contact"> Contact </a>
+            </ul>
 
-        <div class="hero-content"> 
+        </li>
 
-            <h3 class="statement"> Product Designer</h3> 
-            <p class="subheading"> Crafting Intuitive Interfaces with Passion & Precision</p> 
-          
-          <!-- Button View Resume-->
-           <button class="cta" onclick="window.open('https://drive.google.com/file/d/1qzMFVIUjv5kaj1A69xhoIAs5utS59LTq/view?usp=sharing', 'Aamir')">View Resume</button>       
-        </div>
     </div>
+
+    <div class="cta-section"> 
+
+        <button class="btn" onclick="window.open('https://drive.google.com/file/d/1qzMFVIUjv5kaj1A69xhoIAs5utS59LTq/view?usp=sharing', 'Resume')"> Resume </button>
+
+    </div>
+      
+
+    </div>
+    
+        <div class="hero-content">
+
+            <div>
+                <img src="images/AamirKhan-Intro-DP.webp" alt="Aamir Khan - Posing" id="float-image">
+            </div>
+
+                            <!-- Moving Intro IMG with Mouse-->
+                            <script>
+                                const image = document.getElementById('float-image');
+                              
+                                document.addEventListener('mousemove', (e) => {
+                                  const x = (e.clientX / window.innerWidth - 0.5) * 30; // range -15 to +15
+                                  const y = (e.clientY / window.innerHeight - 0.5) * 30;
+                              
+                                  image.style.transform = `translate(${x}px, ${y}px)`;
+                                });
+ 
+      </script>
+
+            <div>
+                <h3 class="statement">Aamir Khan</h3>
+            </div>
+            
+            <div>
+                <p class="subheading"><b>Product Designer</b> Shaping intuitive digital experiences across 
+                    Fintech, Web3, Real Estate, Pharmaceuticals and SaaS industries with 5+ years of experience.</p> 
+            </div>
+            
+           <!-- <div>
+                <button class="cta" onclick="window.open('https://drive.google.com/file/d/1qzMFVIUjv5kaj1A69xhoIAs5utS59LTq/view?usp=sharing', 'Aamir')">View Resume</button>
+           </div>
+            -->
+        </div>
+  
 
     <!-- Projects Heading-->
 <h1 id="work"> Recent <span> Projects </span> </h1>
@@ -91,6 +138,7 @@
 </div>
 
 </div>
+
 
 
 <!-- Project Atlantic Motors-->
@@ -157,9 +205,6 @@
     </div>
 
     </div> 
-
-
-
 
 <!-- About Me Section-->
 <h1 id="about">Introducing<span> I, Me & Myself</span> </h1>
@@ -344,6 +389,8 @@
 
 
 
+
+
 <!-- AI Avatars Section  -->
 
 <h1>I love living in <span>AI Avatars</span></h1>
@@ -403,7 +450,7 @@
 <footer class="footer" id="contact">
 
 <!-- Logo Aamir Khans-->
-<div class="logo-section"> <img src="logos/logo-aamir-khan.svg" alt="Aamir-Khan-Logo" class="logo"> </div>
+<div class="logo-section"> <img src="logos/logo-aamir-khan.svg" alt="Aamir-Khan-Logo" class="logo-for-footer"> </div>
 
 <div class="footer-contact-info">
 <div class="email" onclick="window.open('mailto:hi@aamir.design', 'Email')"> hi@aamir.design </div>
@@ -421,7 +468,6 @@
     <p class="copyright-txt"> Designed & Developed by <b class="designerTag" onclick="window.open('//www.linkedin.com/in/aktheuxer/')"> Aamir Khan </b>with Passion & Precision &#9829; </p>
 
 </div>
-
 
 </body>
 
