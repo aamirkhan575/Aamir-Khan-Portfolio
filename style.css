@@ -1588,39 +1588,138 @@ p {
 
     }
 
-    .navigation {
+    .background {
 
-        text-align: center;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: fill;
+        z-index: -1;
     }
 
+    .header {
+
+        width: 60;
+
+        margin: 0 auto;
+
+        position: fixed;
+    
+        top: 2%;
+        right: 6%;
+    
+    
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+    
+        justify-content: space-around;
+    
+        align-items: center;
+    
+    
+    
+        padding: 10px 10px 10px 10px;
+    
+    
+        background-color: #F0F8EA;
+        border: 1px #d5d5d5 solid;
+        border-radius: 100px;
+    
+    
+        /* Glassmorphism styles */
+        background: rgba(255, 255, 255, 0.1);
+        /* semi-transparent */
+        backdrop-filter: blur(10px);
+        /* blur behind the element */
+        -webkit-backdrop-filter: blur(10px);
+        /* Safari support */
+    
+    
+        z-index: 6;
+    }
+    
+    
 
     ul {
-
-        background-color: white;
-        opacity: 80%;
         padding-block: 20px;
-
-
     }
 
+    .hero-content {
 
-    .statement {
+    width: 80%;
+    height: auto;
 
-        margin-top: 80px;
-        font-size: 3rem;
-        text-align: center;
-        width: 90%;
-        line-height: 3.5rem;
+    display: flex;
+    flex-direction: column;
 
-    }
-
-    .subheading {
-
-        width: 90%;
-    }
+    row-gap: 30px;
+    justify-content: center;
 
 
-    .cta {
+    margin: 0 auto;
+
+    margin-top: 150px;
+
+
+    z-index: 2;
+
+    perspective: 1000px;
+
+}
+
+#float-image{
+
+    display: block;
+    
+
+    width: 70%;
+    margin: 0 auto;
+
+    clip-path: circle(50%);
+
+    height: auto;
+    transition: transform 0.1s ease-out;
+    will-change: transform;
+}
+
+b{
+
+    font-family: 'Planquine';
+}
+
+
+.statement {
+
+    margin-top: 10px;
+
+    font-size: 3rem;
+
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+
+    margin: 0 auto;
+
+}
+
+
+.subheading {
+
+    text-align: center;
+    max-width: 40ch;
+    justify-content: center;
+
+    margin: 0 auto;
+
+}
+
+.cta {
 
         margin-bottom: 100px;
 
@@ -1628,109 +1727,152 @@ p {
 
     .projects-section{
 
+        width: 100%;
+
         display: flex;
         flex-direction: column;
 
         row-gap: 100px;
+
+        margin: 0 auto;
     }
 
 
-    .project-finstreet {
-        border: none;
-        text-align: center;
+    .project-description{
 
-        width: 90%;
+        width: 100%;
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
 
-        margin-bottom: 100px;
-        background: linear-gradient(180deg, #27C1DE 0%, #2F41DB 100%);
+        justify-content: center;
+    
+        row-gap: 30px;
+    
+        align-items: center;
+    
+        margin: 0 auto;
+    }
+
+    .project-thumb {
+
+        width: 100%;
+        height: 100%;
+
+        margin: 0 auto;
+        
+        border-radius: 50px 50px 50px 50px;
+    
+    }
+
+    .project-title {
+    
+        width: 100%;
+     
+        font-size: 28px;
+        text-align: center;
+    
+        margin: 0 auto;
+    
+    }
+    
+    .project-paragraph {
+        
+        width: 500px;
+        
+        font-size: 20px;
+        text-align: center;
+    
+        margin: 0 auto;
+       
+    }
+
+    .btn-case-study {
+
+        width: 250px;
+        height: 63px;
+      
+        background-color: #121212;
+        color: silver;
+      
+        border-radius: 40px;
+        font-size: 16px;
+        
+        border: none;
+
+        margin: 0 auto;
+        
     }
 
 
-    .project-2million {
+    .project-2million{
 
-        border: none;
-        text-align: center;
-
-        width: 90%;
-
+        width: 100%;
+        height: 865px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        row-gap: 30px;
 
-        margin-bottom: 100px;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        border: 0.5px solid #9d9d9d;
+        border-radius: 50px 50px 50px 50px;
+    
         background: linear-gradient(180deg, #F3BA2F 0%, #ea781a 100%);
     }
 
-    .project-aMotors {
-        border: none;
-        text-align: center;
+    .project-aMotors{
 
-        width: 90%;
-
+        width: 100%;
+        height: 865px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        row-gap: 30px;
 
-        margin-bottom: 100px;
-
+        justify-content: space-evenly;
+        align-items: center;
+    
+        border: 0.5px solid #9d9d9d;
+        border-radius: 50px 50px 50px 50px;
+    
         background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     }
 
-    .project-sparkBank {
-        border: none;
-        text-align: center;
+    .project-finstreet{
 
-        width: 90%;
-
+        width: 100%;
+        height: 865px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        row-gap: 30px;
 
-        margin-bottom: 100px;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        border: 0.5px solid #9d9d9d;
+        border-radius: 50px 50px 50px 50px;
+    
+        background: linear-gradient(180deg, #27C1DE 0%, #2F41DB 100%);
+    }
 
+    .project-sparkBank{
+
+        width: 100%;
+        height: 865px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+
+        justify-content: space-evenly;
+        align-items: center;
+    
+        border: 0.5px solid #9d9d9d;
+        border-radius: 50px 50px 50px 50px;
+    
         background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     }
-
-
-
-
-    .project-description {
-
-        display: flex;
-        flex-direction: column;
     
-        row-gap: 40px;
-    
-        justify-content: center;
-        align-items: left;
-    
-        margin: 0 auto;
-
-    }
-
-    .project-cover {
-        border-radius: 50px 50px 50px 50px;
-        width: 100%;
-    }
-
-
-    .project-title {
-        text-align: center;
-    }
-
-    .project-paragraph {
-
-        text-align: center;
-        max-width: 50ch;
-        margin: 0 auto;
-
-        margin-top: 20px;
-    }
-
     .design-process-section {
 
         margin-top: 100px;
