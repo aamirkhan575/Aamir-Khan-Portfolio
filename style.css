@@ -25,9 +25,6 @@ html {
 
 
 
-
-
-
 .logo-for-footer{
 
     width: 200%;
@@ -202,142 +199,114 @@ b{
 
 .projects-section {
 
-    width: 100%;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+
+    margin: 0 auto;
 
 }
 
 
 .project-finstreet {
-    width: 80%;
 
+    width: 1269px;
+    height: 533px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
-    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
 
     border: 0.5px solid #9d9d9d;
-    border-radius: 50px;
-
-    margin: 0 auto;
-
-    margin-bottom: 50px;
-}
-
-.project-finstreet:hover {
+    border-radius: 50px 50px 50px 50px;
 
     background: linear-gradient(180deg, #27C1DE 0%, #2F41DB 100%);
+
+    color: white;
+
 }
+
 
 
 .project-2million {
-    width: 80%;
 
+    width: 1269px;
+    height: 533px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
-    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
 
     border: 0.5px solid #9d9d9d;
-    border-radius: 50px;
-
-    margin: 0 auto;
-
-    margin-bottom: 50px;
-}
-
-.project-2million:hover {
+    border-radius: 50px 50px 50px 50px;
 
     background: linear-gradient(180deg, #F3BA2F 0%, #ea781a 100%);
-}
-
-.project-aMotors {
-    width: 80%;
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
-    gap: 50px;
-
-    border: 0.5px solid #9d9d9d;
-    border-radius: 50px;
-
-    margin: 0 auto;
-
-    margin-bottom: 50px;
 
 }
 
-
-.project-aMotors:hover {
-
-
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-
-}
-
-.project-sparkBank {
-    width: 80%;
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(481px, 1fr));
-    gap: 50px;
-
-    border: 0.5px solid #9d9d9d;
-    border-radius: 50px;
-
-    margin: 0 auto;
-
-    margin-bottom: 50px;
-
-}
-
-.project-sparkBank:hover {
-
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-}
 
 .project-thumb {
 
-    border-radius: 50px 0px 0px 50px;
-    width: 100%;
-
+    width: 579px;
+    height: 533px;
+    
+    border-radius: 50px 50px 50px 50px;
 
 }
 
 .project-description {
 
-    text-align: left;
-    align-self: center;
+    display: flex;
+    flex-direction: column;
 
-    width: 75%;
+    row-gap: 40px;
 
+    justify-content: center;
+    align-items: left;
+
+    margin: 0 auto;
+    
 }
 
 
 .project-title {
-
+    
+    width: 100%;
+ 
     font-size: 28px;
     text-align: left;
-    margin-top: 0px;
-    margin-bottom: 20px;
+
+    margin: 0 auto;
 
 }
 
 .project-paragraph {
-
+    
+    width: 500px;
+    
     font-size: 20px;
     text-align: left;
-    margin-left: 0;
+
+    margin: 0 auto;
+   
 }
 
 
 .btn-case-study {
 
+    width: 250px;
+    height: 63px;
+  
     background-color: #121212;
     color: silver;
-    padding: 20px 40px;
-    margin-top: 100px;
+  
     border-radius: 40px;
     font-size: 16px;
-    cursor: pointer;
+    
     border: none;
+    
 }
 
 
@@ -351,6 +320,41 @@ b{
 
 
     cursor: pointer;
+}
+
+
+
+.project-aMotors {
+    
+    width: 1269px;
+    height: 533px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+
+    border: 0.5px solid #9d9d9d;
+    border-radius: 50px 50px 50px 50px;
+
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+}
+
+
+
+.project-sparkBank {
+
+    width: 1269px;
+    height: 533px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+
+    border: 0.5px solid #9d9d9d;
+    border-radius: 50px 50px 50px 50px;
+
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 
@@ -850,7 +854,7 @@ p {
 }
 
 .about-me-section {
-
+    
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -1622,6 +1626,14 @@ p {
 
     }
 
+    .projects-section{
+
+        display: flex;
+        flex-direction: column;
+
+        row-gap: 100px;
+    }
+
 
     .project-finstreet {
         border: none;
@@ -1639,6 +1651,7 @@ p {
 
 
     .project-2million {
+
         border: none;
         text-align: center;
 
@@ -1689,8 +1702,13 @@ p {
 
         display: flex;
         flex-direction: column;
-
-        text-align: center;
+    
+        row-gap: 40px;
+    
+        justify-content: center;
+        align-items: left;
+    
+        margin: 0 auto;
 
     }
 
