@@ -87,17 +87,22 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: gray;
     text-align: center;
     font-family: 'Pano';
     font-size: 15px;
     cursor: pointer;
 }
 
+a:hover{
+
+    color: black;
+}
+
 
 a:active {
 
-    color: blue;
+   color: black;
 }
 
 
@@ -1588,6 +1593,12 @@ p {
 
     }
 
+    .logo{
+
+        width: 80%;
+    
+    }
+
     .background {
 
         
@@ -1646,6 +1657,13 @@ p {
 
     ul {
         padding-block: 20px;
+    }
+
+    a{
+
+        font-size: 10;
+        color: black;
+
     }
 
     .hero-content {
