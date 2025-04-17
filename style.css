@@ -1595,7 +1595,7 @@ p {
 
     .logo{
 
-        width: 80%;
+        width: 100%;
     
     }
 
@@ -1656,8 +1656,8 @@ p {
     
 
     ul {
-        padding-block: 20px;
-        column-gap: 15px;
+
+        column-gap: 10px;
     }
 
     a{
