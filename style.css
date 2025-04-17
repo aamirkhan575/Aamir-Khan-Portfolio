@@ -123,6 +123,7 @@ a:active {
     cursor: pointer;
 }
 
+
 .background {
 
     position: absolute;
@@ -1557,6 +1558,11 @@ p {
     border-radius: 40px;
 }
 
+b{
+
+    font-family: 'Pano';
+}
+
 
 .designerTag:hover {
 
@@ -1564,6 +1570,8 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
+
+   
 
 }
 
