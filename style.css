@@ -25,13 +25,7 @@ html {
 
 
 
-.logo-for-footer{
-    
 
-    width: 200%;
-    margin: 0 auto;
-    animation: float-thumb 2.5s ease-in-out infinite;
-}
 
 
 .header {
@@ -368,6 +362,7 @@ b{
 
 img {
     width: 100%;
+    margin: 0 auto;
 }
 
 .heading {
@@ -1337,7 +1332,8 @@ p {
 
 .contact-container {
 
-    width: 50%;
+    width: 80%;
+    
     display: flex;
     flex-direction: column;
 
@@ -1419,7 +1415,10 @@ p {
     flex-direction: column;
 
     justify-content: center;
+
     align-items: center;
+
+    text-align: center;
 
     margin: 0 auto;
     /* you can also update the 60%  */
@@ -1431,6 +1430,15 @@ p {
 
 }
 
+.logo-for-footer{
+
+width: 150px;
+margin: 0 auto;
+
+animation: float-thumb 2.5s ease-in-out infinite;
+
+}
+
 .footer-contact-info {
 
     z-index: 1;
@@ -1438,8 +1446,12 @@ p {
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 100px;
     color: silver;
+
+   
 }
 
 
@@ -1449,6 +1461,7 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
+
 }
 
 .email:hover {
@@ -2087,13 +2100,14 @@ b{
 
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 30px;
     }
 
     .mob {
 
         text-align: center;
-        color: silver;
+
 
     }
 
@@ -2109,6 +2123,28 @@ b{
     .resume {
         text-align: center;
     }
+
+    .footer{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    
+
+    .logo-for-footer{
+
+    
+        width: 150px;
+        margin: 0 auto;
+
+        animation: float-thumb 2.5s ease-in-out infinite;
+        
+    }
+    
 
 
 
