@@ -1333,7 +1333,7 @@ p {
 .contact-container {
 
     width: 80%;
-    
+
     display: flex;
     flex-direction: column;
 
@@ -1347,11 +1347,12 @@ p {
 }
 
 
-
 .personal-info {
 
+    width: 100%;
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
     gap: 20px;
 
     justify-content: space-between;
@@ -1369,6 +1370,8 @@ p {
 
 .msg-input {
 
+    display: flex;
+
     padding: 20px;
 
     width: 100%;
@@ -1382,18 +1385,19 @@ p {
 }
 
 
-.btn-send {
+.btn-send { 
+
+
 
     background-color: black;
     color: silver;
     width: 100%;
+    margin: 0 auto;
     padding: 20px 40px;
     border-radius: 40px;
     font-size: 16px;
     cursor: pointer;
     border: none;
-
-
 }
 
 .btn-send:hover {
@@ -1607,7 +1611,6 @@ b{
 
 
 @media (max-width: 599px) {
-
 
     body {
 
@@ -2084,14 +2087,11 @@ b{
 
     }
 
+.personal-info {
 
-
-    .personal-info {
-
-        display: flex;
-        flex-direction: column;
-
-    }
+    
+}
+    
 
 
     .footer-contact-info {
@@ -2107,8 +2107,6 @@ b{
     .mob {
 
         text-align: center;
-
-
     }
 
 
@@ -2138,15 +2136,13 @@ b{
     .logo-for-footer{
 
     
-        width: 150px;
+        width: 100px;
         margin: 0 auto;
 
         animation: float-thumb 2.5s ease-in-out infinite;
         
     }
     
-
-
 
 
 }
