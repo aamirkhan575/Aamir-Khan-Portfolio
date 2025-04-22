@@ -26,8 +26,10 @@ html {
 
 
 .logo-for-footer{
+    
 
     width: 200%;
+    margin: 0 auto;
     animation: float-thumb 2.5s ease-in-out infinite;
 }
 
