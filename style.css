@@ -44,8 +44,6 @@ html {
 
     align-items: center;
 
-
-
     padding: 20px 20px 20px 20px;
 
 
@@ -133,8 +131,6 @@ a:active {
 
 .hero-content {
 
-
-
     width: 100%;
     height: 100vh;
 
@@ -205,6 +201,11 @@ b{
 
     display: flex;
     flex-direction: column;
+
+    justify-content: center;
+    
+
+    align-items: center;
     row-gap: 100px;
 
     margin: 0 auto;
