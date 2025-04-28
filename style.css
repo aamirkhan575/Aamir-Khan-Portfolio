@@ -1996,95 +1996,117 @@ b{
         margin-top: 50px;
     }
 
+    .grid-vector{
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    
+        height: 100vh;
+      
+ 
+    }
+
+    .my-skills-section{
+
+        position: relative;
+        width: 80%;
+
+
+        display: flex;
+        flex-wrap: wrap;
+
+        column-gap: 50px;
+        row-gap: 50px;
+
+        justify-content: center;
+        align-items: center;
+
+        margin: 0 auto;
+
+    }
+
 
     .figma-skills-logo {
 
 
-        top: 30;
-        left: 55;
-
+        position: static;
+    
     }
 
-
-    .my-skills-section {
-
-        margin-bottom: 100px;
-    }
 
 
 
     .premiere-skills-logo {
 
-        top: 40;
-        left: 200;
+        
+        position: static;
     }
 
 
     .photoshop-skills-logo {
 
 
-        top: 40;
-        left: 310;
-
+    
+        position: static;
     }
 
 
     .after-effects-skills-logo {
 
-        top: 200;
-        left: 50;
+       
+        position: static;
 
     }
 
 
     .illustrator-skills-logo {
 
-        top: 180;
-        left: 200;
-
+      
+        position: static;
     }
 
 
     .zeplin-skills-logo {
 
-        top: 180;
-        left: 310;
+        
+        position: static;
     }
 
 
     .chatgpt-skills-logo {
 
-        top: 350;
-        left: 50;
-
+       
+        position: static;
     }
 
     .mid-journey-skills-logo {
 
-        top: 350;
-        left: 200;
+       
+        position: static;
     }
 
 
     .wordpress-skills-logo {
 
-        top: 330;
-        left: 320;
+       
+        position: static;
 
     }
 
 
     .html-skills-logo {
 
-        top: 480;
-        left: 120;
+       
+        position: static;
 
     }
 
     .css-skills-logo {
 
-        top: 480;
-        left: 280;
+     
+        position: static;
 
     }
 
@@ -2095,8 +2117,9 @@ b{
 
         margin-top: 30px;
 
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(minmax());
+        flex-wrap: wrap;
         align-items: center;
         gap: 30px;
     }
