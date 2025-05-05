@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Pano';
-    cursor: crosshair;
+    cursor: url(cursor-you.svg) 16 16, pointer;
 }
 
 html {
@@ -186,7 +186,7 @@ b{
 
 .subheading {
 
-    text-align: center;
+    text-align: left;
     max-width: 40ch;
     justify-content: center;
 
