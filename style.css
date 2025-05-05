@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Pano';
-    cursor: url(cursor-you.svg) 16 16, pointer;
+    cursor: url(cursor-you.svg) 0 0, pointer;
 }
 
 html {
