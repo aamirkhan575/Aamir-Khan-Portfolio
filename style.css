@@ -24,16 +24,14 @@ html {
 }
 
 
-
-
-
-
 .header {
 
     position: fixed;
 
-    top: 2%;
-    right: 30%;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
 
 
     display: flex;
