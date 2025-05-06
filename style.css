@@ -1638,15 +1638,10 @@ b{
 
     .header {
 
-        width: 60;
-
         margin: 0 auto;
 
         position: fixed;
-    
-        top: 0;
-        right: 0;
-    
+
     
         display: flex;
         flex-direction: row;
@@ -1676,6 +1671,11 @@ b{
     
     
         z-index: 6;
+    }
+
+    .logo{
+
+        width: 100%;
     }
     
     
