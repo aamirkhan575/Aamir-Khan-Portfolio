@@ -23,6 +23,10 @@ html {
     overflow-x: hidden;
 }
 
+.logo{
+
+    width: 100%;
+}
 
 .header {
 
@@ -1618,6 +1622,7 @@ b{
 
     }
 
+
     .logo{
 
         width: 100%;
@@ -1642,7 +1647,7 @@ b{
 
         position: fixed;
 
-    
+
         display: flex;
         flex-direction: row;
         column-gap: 15px;
@@ -1650,11 +1655,6 @@ b{
         justify-content: space-around;
     
         align-items: center;
-    
-    
-    
-        padding: 10px 10px 10px 10px;
-    
     
         background-color: #F0F8EA;
         border: 1px #d5d5d5 solid;
@@ -1672,12 +1672,6 @@ b{
     
         z-index: 6;
     }
-
-    .logo{
-
-        width: 100%;
-    }
-    
     
 
     ul {
