@@ -862,18 +862,31 @@ p {
 }
 
 .about-me-section {
+
+    width: 80%;
+
+    margin: 0 auto;
     
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     align-items: center;
 
 }
 
+.intro-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 .Aamir-Khan-Avatar {
 
+    width: 80%;
     filter: grayscale(100%);
     transition: 0.5s ease;
     /*transform: rotate(-180deg); */
@@ -904,21 +917,15 @@ p {
     font-size: 25px;
     font-family: 'Pano';
     margin-top: 50px;
+    text-align: left;
 }
 
-.gender {
-
-    font: 20px;
-    color: #5d5a5a;
-    margin-top: -5px;
-
-}
 
 .bio {
 
-    margin-top: 50px;
+    margin-top: 20px;
     max-width: 40ch;
-    padding-inline: 100px;
+ 
     text-align: left;
 
 
