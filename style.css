@@ -158,6 +158,8 @@ a:active {
     width: 20%;
     margin: 0 auto;
 
+    margin-top: 100px;
+
     clip-path: circle(50%);
 
     height: auto;
@@ -846,7 +848,7 @@ p {
 .testimonial-name {
 
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
 
 }
