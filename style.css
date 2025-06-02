@@ -1776,6 +1776,48 @@ b{
 
 }
 
+.about-me-section {
+
+    width: 80%;
+
+    margin: 0 auto;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.intro-content{
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.name{
+
+    text-align: left;
+}
+
+.bio{
+
+    text-align: left;
+    
+}
+
+
 .cta {
 
         margin-bottom: 100px;
