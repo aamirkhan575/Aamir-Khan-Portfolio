@@ -1778,7 +1778,7 @@ b{
 
 .about-me-section {
 
-    width: 80%;
+    width: 90%;
 
     margin: 0 auto;
     
@@ -1788,9 +1788,10 @@ b{
     display: flex;
     flex-direction: column;
     
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    justify-content: left;
+    
+    align-items: left;
+
 
 }
 
@@ -1800,22 +1801,17 @@ b{
     display: flex;
     flex-direction: column;
 
-    justify-content: center;
 
     align-items: center;
 
 }
 
-.name{
+.intro-content .bio{
+
 
     text-align: left;
 }
 
-.bio{
-
-    text-align: left;
-    
-}
 
 
 .cta {
@@ -2040,8 +2036,8 @@ b{
         width: 80%;
         line-height: 3rem;
         margin: 0 auto;
-        margin-bottom: 20px;
-        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-top: 150px;
     }
 
     .grid-vector{
