@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aamir Khan - Product Designer Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+     <!-- Hotjar Tracking Code for https://aamir.design/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3124010,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Oxygen', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            overflow-x: auto;
+        }
+
+        .resume-container {
+            background-color: #ffffff;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            min-height: 1604px;
+        }
+
+        /* Main Resume Border Container */
+        .main-border-container {
+            position: absolute;
+            left: calc(50% + 0.5px);
+            top: 0;
+            transform: translateX(-50%);
+            width: 1073px;
+            height: 1604px;
+            border: 0.390588px solid #c4c4c4;
+            pointer-events: none;
+        }
+
+        /* Header Styles */
+        .main-title {
+            position: absolute;
+            left: 50%;
+            top: 38px;
+            transform: translateX(-50%);
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 700;
+            font-size: 48.8235px;
+            line-height: normal;
+            text-align: center;
+            color: #000000;
+            white-space: nowrap;
+        }
+
+        .subtitle {
+            position: absolute;
+            left: 50%;
+            top: 100px;
+            transform: translateX(-50%);
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 400;
+            font-size: 31.2471px;
+            line-height: normal;
+            text-align: center;
+            color: #000000;
+            white-space: nowrap;
+        }
+
+        /* Contact Information Container */
+        .contact-container {
+            position: absolute;
+            left: calc(50% + 0.5px);
+            top: 162px;
+            transform: translateX(-50%);
+            width: 1073px;
+            height: 71px;
+            border: 0.390588px solid #c4c4c4;
+            font-family: 'Oxygen', sans-serif;
+            font-size: 18px;
+            line-height: normal;
+            color: #000000;
+            overflow: hidden;
+        }
+
+        .contact-info {
+            position: absolute;
+            top: 24.424px;
+            white-space: nowrap;
+        }
+
+        .contact-mobile {
+            left: 54px;
+        }
+
+        .contact-email {
+            left: 302px;
+        }
+
+        .contact-address {
+            left: 534px;
+        }
+
+        .contact-portfolio {
+            left: 787px;
+        }
+
+        .contact-info a {
+            color: #000000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-bold {
+            font-weight: 700;
+        }
+
+        /* Download Button */
+        .download-button {
+            position: absolute;
+            left: calc(50% + 630px);
+            top: 17px;
+            transform: translateX(-50%);
+            background: linear-gradient(-78.5038deg, rgb(82, 187, 239) 18.132%, rgb(16, 198, 144) 104.58%);
+            border-radius: 38px;
+            backdrop-filter: blur(4px);
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+
+        .download-button:hover {
+            opacity: 0.9;
+        }
+
+        .download-button-text {
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: normal;
+            color: #000000;
+            white-space: nowrap;
+        }
+
+        /* Section Headers */
+        .section-header {
+            position: absolute;
+            left: 235px;
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: normal;
+            text-transform: uppercase;
+            color: #000000;
+        }
+
+        .section-header-summary {
+            top: 248px;
+        }
+
+        .section-header-experience {
+            top: 456.51px;
+        }
+
+        .section-header-education {
+            top: 1158.47px;
+        }
+
+        .section-header-skills {
+            top: 1335.61px;
+        }
+
+        /* Summary */
+        .summary-content {
+            position: absolute;
+            left: 274.799px;
+            top: 300px;
+            width: 906.074px;
+            font-family: 'Oxygen', sans-serif;
+            font-size: 18px;
+            line-height: 30px;
+            color: #000000;
+            transform: rotate(0.412deg);
+        }
+
+        .summary-bold {
+            font-weight: 700;
+        }
+
+        /* Experience */
+        .experience-item {
+            position: absolute;
+            left: 274.923px;
+            width: 973.61px;
+            font-family: 'Oxygen', sans-serif;
+            color: #000000;
+            transform: rotate(0.412deg);
+        }
+
+        .experience-title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: normal;
+        }
+
+        .experience-1 {
+            top: 508.51px;
+        }
+
+        .experience-2 {
+            top: 712.063px;
+        }
+
+        .experience-3 {
+            top: 855.619px;
+        }
+
+        .experience-4 {
+            top: 999.462px;
+        }
+
+        .experience-content {
+            position: absolute;
+            left: 275px;
+            font-family: 'Oxygen', sans-serif;
+            font-size: 18px;
+            line-height: 30px;
+            color: #000000;
+            transform: rotate(0.412deg);
+        }
+
+        .experience-content-1 {
+            top: 540.513px;
+            width: 911.993px;
+        }
+
+        .experience-content-2 {
+            top: 744.067px;
+            width: 911.561px;
+        }
+
+        .experience-content-3 {
+            top: 887.622px;
+            width: 951.592px;
+        }
+
+        .experience-content-4 {
+            top: 1031.46px;
+            width: 973.622px;
+        }
+
+        .experience-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .experience-content li {
+            position: relative;
+            margin-left: 27px;
+            margin-bottom: 0;
+        }
+
+        .experience-content li::before {
+            content: "•";
+            position: absolute;
+            left: -27px;
+            color: #000000;
+        }
+
+        .experience-bold {
+            font-weight: 700;
+        }
+
+        /* Education */
+        .education-content {
+            position: absolute;
+            left: 275px;
+            top: 1210.47px;
+            width: 715.067px;
+            font-family: 'Oxygen', sans-serif;
+            font-size: 18px;
+            line-height: 30px;
+            color: #000000;
+            transform: rotate(0.412deg);
+        }
+
+        .education-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .education-content li {
+            position: relative;
+            margin-left: 27px;
+            margin-bottom: 0;
+        }
+
+        .education-content li::before {
+            content: "•";
+            position: absolute;
+            left: -27px;
+            color: #000000;
+        }
+
+        /* Skills */
+        .skills-category {
+            position: absolute;
+            left: 284px;
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: normal;
+            text-transform: capitalize;
+            color: #000000;
+            white-space: nowrap;
+        }
+
+        .skills-ux {
+            top: 1405.61px;
+        }
+
+        .skills-technical {
+            top: 1481.35px;
+        }
+
+        .skills-soft {
+            top: 1540.35px;
+        }
+
+        .skill-item {
+            position: absolute;
+            font-family: 'Oxygen', sans-serif;
+            font-size: 18px;
+            line-height: normal;
+            text-transform: capitalize;
+            color: #000000;
+            white-space: nowrap;
+            transform: rotate(0.412deg);
+        }
+
+        .skill-item::before {
+            content: "• ";
+            margin-right: 8px;
+        }
+
+        /* UX Skills */
+        .skill-user-research { top: 1387.61px; left: 469px; }
+        .skill-wireframing { top: 1387.61px; left: 624.162px; }
+        .skill-prototyping { top: 1387.61px; left: 765.324px; }
+        .skill-info-arch { top: 1387.61px; left: 899.486px; }
+        .skill-design-systems { top: 1424.22px; left: 469px; }
+        .skill-visual-design { top: 1424.22px; left: 638.161px; }
+        .skill-user-flows { top: 1424.22px; left: 787.323px; }
+        .skill-user-testing { top: 1424.22px; left: 915.486px; }
+
+        /* Technical Skills */
+        .skill-figma { top: 1481.35px; left: 469px; }
+        .skill-adobe { top: 1481.35px; left: 558.163px; }
+        .skill-webflow { top: 1481.35px; left: 696.326px; }
+        .skill-wordpress { top: 1481.35px; left: 809.489px; }
+        .skill-html { top: 1481.35px; left: 937.651px; }
+        .skill-css { top: 1481.35px; left: 1024.81px; }
+
+        /* Soft Skills */
+        .skill-problem-solving { top: 1539.35px; left: 469px; }
+        .skill-empathy { top: 1539.35px; left: 642.161px; }
+        .skill-collaboration { top: 1539.35px; left: 752.324px; }
+        .skill-leadership { top: 1539.35px; left: 902.486px; }
+
+        @media print {
+            body {
+                width: 8.5in;
+                height: 11in;
+            }
+            
+            .resume-container {
+                width: 8.5in;
+                height: 11in;
+            }
+            
+            .main-border-container {
+                width: 8.5in;
+                height: 11in;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .resume-container {
+                transform: scale(0.8);
+                transform-origin: top left;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .resume-container {
+                transform: scale(0.6);
+                transform-origin: top left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Main Border Container -->
+        <div class="main-border-container"></div>
+
+        <!-- Header -->
+        <h1 class="main-title">Aamir Khan</h1>
+        <p class="subtitle">Product Designer</p>
+
+        <!-- Contact Information Container -->
+        <div class="contact-container">
+            <div class="contact-info contact-mobile">
+                <p><a href="https://api.whatsapp.com/send?phone=971565578373"><span class="contact-bold">Mobile:</span> +971 56 557 8373</a></p>
+            </div>
+            <div class="contact-info contact-email">
+                <p><a href="mailto:hi@aamir.design"><span class="contact-bold">Email:</span> hi@aamir.design</a></p>
+            </div>
+            <div class="contact-info contact-address">
+                <p><span class="contact-bold">Address:</span> Abu Dhabi - UAE</p>
+            </div>
+            <div class="contact-info contact-portfolio">
+                <p><a href="https://aamir.design/"><span class="contact-bold">Portfolio:</span> www.aamir.design</a></p>
+            </div>
+        </div>
+
+        <!-- Download Button -->
+        <div class="download-button" onclick="downloadResume()">
+            <p class="download-button-text">Download</p>
+        </div>
+
+              <script>
+                function downloadResume() {
+                const fileUrl = '/resume/resume-aamir-khan-product-designer.pdf'; // Replace with your PDF path
+                const fileName = 'UX-Resume-Aamir-Khan.pdf';     // Optional custom file name
+
+                const link = document.createElement('a');
+                link.href = fileUrl;
+                link.download = fileName;
+                 document.body.appendChild(link);
+                link.click();
+                 document.body.removeChild(link);
+             }
+            </script>
+
+        <!-- Summary Section -->
+        <h2 class="section-header section-header-summary">SUMMARY</h2>
+        <div class="summary-content">
+            <p>User-centered <span class="summary-bold">Product Designer with 5+ years</span> of experience shaping intuitive digital experiences across <span class="summary-bold">Fintech</span>, <span class="summary-bold">Web3</span>, <span class="summary-bold">Real Estate</span>, <span class="summary-bold">Pharmaceuticals</span> and <span class="summary-bold">SaaS</span> industries. Skilled in <span class="summary-bold">UX research</span>, <span class="summary-bold">prototyping</span>, and <span class="summary-bold">design systems</span>, I bridge <span class="summary-bold">user needs with business goals</span> to deliver high-impact solutions. Proven track record of <span class="summary-bold">boosting user engagement (+30%) and increasing sales (+25%)</span> through strategic design.</p>
+        </div>
+
+        <!-- Experience Section -->
+        <h2 class="section-header section-header-experience">EXPERIENCE</h2>
+
+        <div class="experience-item experience-1">
+            <p class="experience-title">Product Designer | Sirius International Holding | Abu Dhabi, UAE | 2022 – Present</p>
+        </div>
+        <div class="experience-content experience-content-1">
+            <ul>
+                <li>Streamlined the end-to-end UX of a Fintech platform, optimizing <span class="experience-bold">responsiveness</span> for <span class="experience-bold">web & mobile</span>, leading to a <span class="experience-bold">30% increase</span> in user engagement.</li>
+                <li>Led the redesign of <span class="experience-bold">B2B</span> & <span class="experience-bold">B2C</span> platforms, aligning user needs with business goals, <span class="experience-bold">boosting sales by 15%</span>.</li>
+                <li>Optimized a <span class="experience-bold">Quantum Computing Blockchain Services</span> solution, refining complex interactions, <span class="experience-bold">improving usability</span>, and <span class="experience-bold">increasing user adoption by 15%</span>.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item experience-2">
+            <p class="experience-title">Product Designer | Apeiro Digital | Abu Dhabi, UAE | 2022 – Present</p>
+        </div>
+        <div class="experience-content experience-content-2">
+            <ul>
+                <li>Spearheading the end-to-end UX design of a pharmaceutical <span class="experience-bold">Track & Trace Solution</span> for the <span class="experience-bold">Kenyan government</span>, enabling <span class="experience-bold">comprehensive oversight</span> of <span class="experience-bold">pharmaceutical manufacturing</span>, <span class="experience-bold">imports</span>, and <span class="experience-bold">distribution</span> across the nation.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item experience-3">
+            <p class="experience-title">UI/UX Designer | Ideaology.io | Dubai, UAE | 2021 – 2022</p>
+        </div>
+        <div class="experience-content experience-content-3">
+            <ul>
+                <li>Led the UX design of a <span class="experience-bold">Web3 Freelancing Platform</span>, driving <span class="experience-bold">20k+ freelancer</span> registrations within <span class="experience-bold">3 months</span> through intuitive design and user experience optimization.</li>
+                <li>Revamped the company's crypto token website, <span class="experience-bold">enhancing UI/UX</span>, which led to a <span class="experience-bold">25% increase</span> in token sales.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item experience-4">
+            <p class="experience-title">UI/UX Designer | One Step Advertising | Dubai, UAE | 2019 – 2021</p>
+        </div>
+        <div class="experience-content experience-content-4">
+            <ul>
+                <li>Refined a fully responsive <span class="experience-bold">e-commerce website</span> for a Dubai-based car showroom, improving UX and <span class="experience-bold">increasing sales by 10%</span> in three month.</li>
+                <li>Elevated social media visuals & promotional videos, driving a <span class="experience-bold">40% increase</span> in audience engagement.</li>
+            </ul>
+        </div>
+
+        <!-- Education Section -->
+        <h2 class="section-header section-header-education">EDUCATION</h2>
+        <div class="education-content">
+            <ul>
+                <li>1 Million Prompters - Prompt Engineering Program by Dubai Future Foundation - 2025</li>
+                <li>Google UX Design Certification (2021)</li>
+                <li>BSc Information Technology – University of Sindh, Pakistan (2017)</li>
+            </ul>
+        </div>
+
+        <!-- Skills Section -->
+        <h2 class="section-header section-header-skills">SKILLS & TOOLS</h2>
+
+        <p class="skills-category skills-ux">UX & UI Design</p>
+        <div class="skill-item skill-user-research">User Research</div>
+        <div class="skill-item skill-wireframing">Wireframing</div>
+        <div class="skill-item skill-prototyping">Prototyping</div>
+        <div class="skill-item skill-info-arch">Information Architecture</div>
+        <div class="skill-item skill-design-systems">Design Systems</div>
+        <div class="skill-item skill-visual-design">Visual Design</div>
+        <div class="skill-item skill-user-flows">User Flows</div>
+        <div class="skill-item skill-user-testing">User Testing</div>
+
+        <p class="skills-category skills-technical">Technical Tools</p>
+        <div class="skill-item skill-figma">Figma</div>
+        <div class="skill-item skill-adobe">Adobe Suite</div>
+        <div class="skill-item skill-webflow">Webflow</div>
+        <div class="skill-item skill-wordpress">Wordpress</div>
+        <div class="skill-item skill-html">HTML</div>
+        <div class="skill-item skill-css">CSS</div>
+
+        <p class="skills-category skills-soft">Soft Skills</p>
+        <div class="skill-item skill-problem-solving">Problem Solving</div>
+        <div class="skill-item skill-empathy">Empathy</div>
+        <div class="skill-item skill-collaboration">Collaboration</div>
+        <div class="skill-item skill-leadership">Leadership & Mentorship</div>
+    </div>
+</body>
+</html>
