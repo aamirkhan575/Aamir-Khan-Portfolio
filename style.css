@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Pano';
-    cursor: url(cursor-you.svg) 0 0, pointer;
+    /* cursor: url(cursor-you.svg) 0 0, pointer; */
 }
 
 html {
@@ -36,17 +36,15 @@ html {
     left: 50%;
     transform: translateX(-50%);
     
-
-
     display: flex;
     flex-direction: row;
-    column-gap: 50px;
+    column-gap: 30px;
 
     justify-content: space-around;
 
     align-items: center;
 
-    padding: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
 
 
     background-color: #F0F8EA;
@@ -83,16 +81,15 @@ li {
 
 a {
     text-decoration: none;
-    color: gray;
+    color: black;
     text-align: center;
     font-family: 'Pano';
-    font-size: 15px;
     cursor: pointer;
 }
 
 a:hover{
 
-    color: black;
+    color: #10C690;
 }
 
 
@@ -109,27 +106,9 @@ a:active {
     color: white;
     border-radius: 50px;
     padding: 10px 20px 10px 20px;
-    
-    font-size: 15px;
-    text-align: center;
-    text-decoration: none;
-    border-top: none;
-    border-left: none;
-    justify-content: center;
     cursor: pointer;
 }
 
-
-.background {
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
 
 .hero-content {
 
@@ -160,7 +139,7 @@ a:active {
 
     margin-top: 100px;
 
-    clip-path: circle(50%);
+   
 
     height: auto;
     transition: transform 0.1s ease-out;
@@ -177,7 +156,7 @@ b{
 
     margin-top: 10px;
 
-    font-size: 3rem;
+    font-size: 2.5rem;
 
     background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
     -webkit-background-clip: text;
@@ -187,17 +166,15 @@ b{
 
 }
 
-
 .subheading {
 
     text-align: center;
-    max-width: 40ch;
+    max-width: 45ch;
     justify-content: center;
 
     margin: 0 auto;
 
-}
-
+}   
 
 .projects-section {
 
@@ -840,7 +817,7 @@ p {
     }
 
     50% {
-        transform: translateY(-.75rem);
+        transform: translateY(-.75rem); 
     }
 
     100% {
@@ -853,17 +830,14 @@ p {
     font-size: 18px;
     text-align: center;
     margin: 0 auto;
-    
 
 }
 
 .testimonial-msg {
 
-
     font-size: 17px;
     line-height: 28px;
     text-align: center;
-    
 }
 
 .about-me-section {
@@ -1537,8 +1511,7 @@ animation: float-thumb 2.5s ease-in-out infinite;
 .cta {
 
     display: block;
-    width: 320px;
-    height: 70px;
+    padding: 20px 40px 20px 40px;
     border: none;
     outline: none;
     color: white;
