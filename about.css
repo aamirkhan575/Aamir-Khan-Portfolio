@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Pano';
+    src: url(Fonts/Pano/HW\ Pano\ Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Planquine';
+    src: url(Fonts/Palanquin/Palanquin-Regular.ttf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pano';
+    /* cursor: url(cursor-you.svg) 0 0, pointer; */
+}
+
+html {
+
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.logo{
+
+    width: 100%;
+}
+
+.header {
+
+    position: fixed;
+
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    padding: 10px 10px 10px 10px;
+
+
+    background-color: #F0F8EA;
+    border: 1px #d5d5d5 solid;
+    border-radius: 100px;
+
+
+    /* Glassmorphism styles */
+    background: rgba(255, 255, 255, 0.1);
+    /* semi-transparent */
+    backdrop-filter: blur(10px);
+    /* blur behind the element */
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
+
+
+    z-index: 6;
+}
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    text-align: center;
+}
+
+li {
+
+
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Pano';
+    cursor: pointer;
+}
+
+a:hover{
+
+    color: #10C690;
+}
+
+
+a:active {
+
+   color: black;
+}
+
+
+.btn {
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.cover-thumbnail{
+ 
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-me-section{
+ 
+    width: 60%;
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-direction: column;
+    row-gap: 50px;
+
+    justify-content: center;
+
+    margin-top: 50px;
+
+}
+
+.cover-photo{
+
+    width: 100%;    
+}
+
+
+img{
+    
+    width: 100%;
+
+}
+
+p{
+
+    font-family: 'Planquine';
+    font-size: 20px;
+
+}
+
+
+span:hover{
+
+     color: #10C690;
+
+}
+
+
+.footer {
+    --c: 80px;
+    /* control the curvature (works with percentage) */
+    height: 600px;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    margin: 0 auto;
+    /* you can also update the 60%  */
+    mask: radial-gradient(60% var(--c) at 50% var(--c), #0000 calc(100% - 2px), #000) 0 calc(-1*var(--c));
+    background-color: #121212;
+    /* background: radial-gradient(123% 83.51% at 85.59% 12.93%, #FFDDDD 0%, #D7C4FF 52.6%, #D7F0FF 100%); */
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.logo-for-footer{
+
+width: 150px;
+margin: 0 auto;
+
+animation: float-thumb 2.5s ease-in-out infinite;
+
+}
+
+.footer-contact-info {
+
+    z-index: 1;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: silver;
+
+   
+}
+
+
+.mob:hover {
+
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+
+}
+
+.email:hover {
+
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.resume:hover {
+
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+
+.copyright-section {
+
+    display: flex;
+    width: 80%;
+
+    margin: 0 auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-txt {
+
+    font-size: 18px;
+
+    text-align: center;
+
+    color: #5d5a5a;
+
+    margin-bottom: 60px;
+}

@@ -32,7 +32,7 @@ html {
 
     position: fixed;
 
-    top: 20px;
+    top:  20px;
     left: 50%;
     transform: translateX(-50%);
     
@@ -112,12 +112,15 @@ a:active {
 
 .hero-content {
 
-    width: 100%;
+    width: 80%;
     height: 100vh;
 
     display: flex;
     flex-direction: column;
+    row-gap: 30px;
+    
     justify-content: center;
+    align-items: center;
 
 
     margin: 0 auto;
@@ -133,15 +136,12 @@ a:active {
 
     display: block;
     
+    width: 30%;
 
-    width: 20%;
     margin: 0 auto;
 
-    margin-top: 100px;
-
+    margin-top: 70px;
    
-
-    height: auto;
     transition: transform 0.1s ease-out;
     will-change: transform;
 }
@@ -154,10 +154,8 @@ b{
 
 .statement {
 
-    margin-top: 10px;
 
-    font-size: 2.5rem;
-
+    font-size: 2.8rem;
     background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -169,8 +167,8 @@ b{
 .subheading {
 
     text-align: center;
-    max-width: 45ch;
     justify-content: center;
+    max-width: 45ch;
 
     margin: 0 auto;
 
@@ -191,6 +189,8 @@ b{
 
     margin: 0 auto;
 
+    margin-bottom: 200px;
+
 }
 
 
@@ -207,6 +207,60 @@ b{
     border-radius: 50px 50px 50px 50px;
 
     background: linear-gradient(180deg, #27C1DE 0%, #2F41DB 100%);
+
+    color: white;
+
+}
+
+.project-fortiquo{
+
+    width: 1269px;
+    height: 533px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+
+    border: 0.5px solid #9d9d9d;
+    border-radius: 50px 50px 50px 50px;
+
+    background: linear-gradient(180deg, #040505 0%, #2fb0db 100%);
+
+    color: white;
+
+}
+
+.project-workAsPro{
+
+    width: 1269px;
+    height: 533px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+
+    border: 0.5px solid #9d9d9d;
+    border-radius: 50px 50px 50px 50px;
+
+    background: linear-gradient(80deg, #d85c04 0%, #04070a 100%);
+
+    color: white;
+
+}
+
+.project-fitness{
+
+    width: 1269px;
+    height: 533px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+
+    border: 0.5px solid #9d9d9d;
+    border-radius: 50px 50px 50px 50px;
+
+    background: linear-gradient(180deg, #D52423 0%, rgb(71, 13, 12) 100%);
 
     color: white;
 
@@ -938,24 +992,26 @@ p {
     transition: .3s ease;
 
 
+
 }
 
 .my-skills-section {
 
-    width: 100%;
-    height: 70%;
-    position: relative;
-    margin-bottom: 50px;
+    padding: 100px 0px 100px 0px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    column-gap: 50px;
+
 }
 
 
 .figma-skills-logo {
 
-    transform: rotate(-120deg);
     width: auto;
-    position: absolute;
-    top: 100px;
-    left: 300px;
     transition: 0.5s ease;
 
 }
@@ -965,17 +1021,15 @@ p {
     transform-style: flat;
     transform-style: initial;
     transition: 0.5s ease;
-    transform: scale(300%);
+    transform: scale(200%);
 
 }
 
 .lblFigma {
 
-    position: absolute;
+
     font-size: 12px;
     font-family: 'Pano';
-    top: 180px;
-    left: 290px;
 
 }
 
@@ -983,10 +1037,6 @@ p {
 .premiere-skills-logo {
 
     width: auto;
-    position: absolute;
-    top: 500px;
-    left: 450px;
-    transform: rotate(520deg);
     transition: 0.5s ease;
 
 }
@@ -998,29 +1048,25 @@ p {
     transform-style: initial;
     transition: 0.5s ease;
 
-    transform: scale(300%);
+    transform: scale(200%);
 
 }
 
 .lblPremiere {
 
-    position: absolute;
+    width: auto;
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 590px;
-    left: 420px;
+  
 
 }
 
 .photoshop-skills-logo {
 
-    width: auto;
-    position: absolute;
-    top: 250px;
-    left: 1000px;
 
-    transform: rotate(140deg);
+    width: auto;
+
     transition: 0.5s ease;
 
 }
@@ -1030,30 +1076,24 @@ p {
     transform-style: flat;
     transform-style: initial;
     transition: 0.5s ease;
-    transform: scale(300%);
+    transform: scale(200%);
 
 }
 
 .lblPhotoshop {
 
-    position: absolute;
+  
     font-size: 12px;
     font-family: 'Pano';
-
-    top: 335px;
-    left: 960px;
-
 
 }
 
 .after-effects-skills-logo {
 
-    transform: rotate(-120deg);
+    
 
     width: auto;
-    position: absolute;
-    top: 90px;
-    left: 1100px;
+  
     transition: 0.5s ease;
 }
 
@@ -1065,27 +1105,24 @@ p {
     transform-style: initial;
     transition: 0.5s ease;
 
-    transform: scale(300%);
+    transform: scale(200%);
 
 }
 
 .lblAfterEffects {
 
-    position: absolute;
+  
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 180px;
-    left: 1050px;
+ 
 }
 
 .illustrator-skills-logo {
 
-    transform: rotate(100deg);
+    
     width: auto;
-    position: absolute;
-    top: 170px;
-    left: 530px;
+  
     transition: 0.5s ease;
 
 }
@@ -1097,30 +1134,23 @@ p {
     transform-style: initial;
     transition: 0.5s ease;
 
-    transform: scale(300%);
+    transform: scale(200%);
 
 }
 
 
 .lblIllustrator {
 
-    position: absolute;
+ 
     font-size: 12px;
     font-family: 'Pano';
 
-    top: 255px;
-    left: 500px;
 
 }
 
 
 .zeplin-skills-logo {
     width: auto;
-    position: absolute;
-    top: 300px;
-    left: 350px;
-
-    transform: rotate(90deg);
 
     transition: 0.5s ease;
 }
@@ -1131,19 +1161,16 @@ p {
     transform-style: initial;
     transition: 0.5s ease;
 
-    transform: scale(300%);
+    transform: scale(200%);
 
 }
 
 
 .lblZeplin {
 
-    position: absolute;
+
     font-size: 12px;
     font-family: 'Pano';
-
-    top: 375px;
-    left: 360px;
 
 
 }
@@ -1152,14 +1179,8 @@ p {
 
 .chatgpt-skills-logo {
 
-    transform: rotate(-140deg);
 
     width: auto;
-    position: absolute;
-    top: 320px;
-    left: 800px;
-
-
     transition: 0.5s ease;
 
 }
@@ -1170,31 +1191,22 @@ p {
     transform-style: initial;
     transition: 0.5s ease;
 
-    transform: scale(300%);
+    transform: scale(200%);
 
 }
 
 
 .lblChatGPT {
 
-    position: absolute;
+
     font-size: 12px;
     font-family: 'Pano';
-
-    top: 405px;
-    left: 800px;
 
 }
 
 .mid-journey-skills-logo {
 
-    transform: rotate(120deg);
-
     width: auto;
-    position: absolute;
-    top: 378px;
-    left: 1150px;
-
     transition: 0.5s ease;
 
 }
@@ -1206,30 +1218,20 @@ p {
     transform-style: initial;
     transition: 0.5s ease;
 
-    transform: scale(300%);
+    transform: scale(200%);
 
 }
 
 .lblMidjourney {
 
-    position: absolute;
+   
     font-size: 12px;
     font-family: 'Pano';
-
-    top: 440px;
-    left: 1140px;
-
 }
 
 .wordpress-skills-logo {
 
-    transform: rotate(130deg);
-
     width: auto;
-    position: absolute;
-    top: 350px;
-    left: 600px;
-
     transition: 0.5s ease;
 }
 
@@ -1238,32 +1240,23 @@ p {
     transform-style: flat;
     transform-style: initial;
 
-    transform: scale(350%);
+    transform: scale(200%);
 }
 
 
 
 .lblWordpress {
 
-    position: absolute;
+  
     font-size: 12px;
     font-family: 'Pano';
-
-    top: 435px;
-    left: 590px;
 
 }
 
 
 .html-skills-logo {
 
-    transform: rotate(-120deg);
-
     width: auto;
-    position: absolute;
-    top: 420px;
-    left: 950px;
-
     transition: 0.5s ease;
 
 }
@@ -1273,17 +1266,14 @@ p {
     transform-style: flat;
     transform-style: initial;
 
-    transform: scale(250%);
+    transform: scale(200%);
 }
 
 .lblHTML {
 
-    position: absolute;
+
     font-size: 12px;
     font-family: 'Pano';
-
-    top: 510px;
-    left: 970px;
 
 }
 
@@ -1291,12 +1281,7 @@ p {
 
 .css-skills-logo {
 
-    transform: rotate(120deg);
-
     width: auto;
-    position: absolute;
-    top: 100px;
-    left: 800px;
     transition: 0.5s ease;
 }
 
@@ -1305,17 +1290,13 @@ p {
     transform-style: flat;
     transform-style: initial;
 
-    transform: scale(250%);
+    transform: scale(200%);
 }
 
 .lblCSS {
 
-    position: absolute;
     font-size: 12px;
     font-family: 'Pano';
-
-    top: 185px;
-    left: 810px;
 }
 
 
@@ -1908,6 +1889,57 @@ b{
     }
 
     .project-finstreet{
+
+        width: 100%;
+        height: 865px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+
+        justify-content: space-evenly;
+        align-items: center;
+    
+        border: 0.5px solid #9d9d9d;
+        border-radius: 50px 50px 50px 50px;
+    
+        background: linear-gradient(180deg, #27C1DE 0%, #2F41DB 100%);
+    }
+
+     .project-workAsPro{
+
+        width: 100%;
+        height: 865px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+
+        justify-content: space-evenly;
+        align-items: center;
+    
+        border: 0.5px solid #9d9d9d;
+        border-radius: 50px 50px 50px 50px;
+    
+        background: linear-gradient(180deg, #27C1DE 0%, #2F41DB 100%);
+    }
+
+     .project-fitness{
+
+        width: 100%;
+        height: 865px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+
+        justify-content: space-evenly;
+        align-items: center;
+    
+        border: 0.5px solid #9d9d9d;
+        border-radius: 50px 50px 50px 50px;
+    
+        background: linear-gradient(180deg, #27C1DE 0%, #2F41DB 100%);
+    }
+
+     .project-fortiquo{
 
         width: 100%;
         height: 865px;
