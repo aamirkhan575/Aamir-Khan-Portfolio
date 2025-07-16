@@ -248,6 +248,24 @@ b{
 
 }
 
+.project-plomX{
+
+    width: 1269px;
+    height: 533px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+
+    border: 0.5px solid #9d9d9d;
+    border-radius: 50px 50px 50px 50px;
+
+    background: linear-gradient(80deg, #000 10%, #F45B69 100%);
+
+    color: white;
+
+}
+
 .project-fitness{
 
     width: 1269px;
