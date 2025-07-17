@@ -160,6 +160,21 @@ span:hover{
 
 }
 
+@keyframes float-thumb {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-.75rem); 
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 
 .footer {
     --c: 80px;
