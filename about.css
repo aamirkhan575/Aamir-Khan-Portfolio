@@ -281,3 +281,14 @@ animation: float-thumb 2.5s ease-in-out infinite;
 
     margin-bottom: 60px;
 }
+
+.designerTag:hover {
+
+    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+
+   
+
+}
