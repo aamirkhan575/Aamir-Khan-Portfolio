@@ -118,10 +118,9 @@ a:active {
     height: 100vh;
 
     display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-    
-    justify-content: center;
+    flex-direction: row;
+   
+    justify-content: left;
     align-items: center;
 
 
@@ -132,13 +131,28 @@ a:active {
 
     perspective: 1000px;
 
+
+}
+
+.statement-content{
+    
+
+    display: flex;
+    flex-direction: column;
+
+   
+    row-gap: 20px;
+
+    align-content:center;
+    justify-content: center;
+   
 }
 
 #float-image{
 
     display: block;
     
-    width: 30%;
+    width: 60%;
 
     margin: 0 auto;
 
@@ -157,24 +171,49 @@ b{
 .statement {
 
 
-    font-size: 2.8rem;
-    background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
+    font-size: 4rem;
+    /* background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 
-    text-align: center;
+    text-align: left;
 
 }
 
 .subheading {
 
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
     max-width: 45ch;
 
     margin: 0 auto;
 
-}   
+}
+
+.btn-about{
+
+
+    background-color: #f6f6f6;
+    color: #000;
+    border: 1px solid silver;
+
+    padding: 20px 40px 20px 40px;
+    border-radius: 40px;
+
+    font-size: large;
+
+    cursor: pointer;
+    
+}
+
+.btn-about:hover{
+
+     background-color: black;
+    color: white;
+    border: none;
+    
+}
+
 
 .projects-section {
 
