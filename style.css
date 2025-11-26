@@ -117,6 +117,8 @@ a:active {
     width: 80%;
     height: 100vh;
 
+    
+
     display: flex;
     flex-direction: row;
    
@@ -137,14 +139,13 @@ a:active {
 .statement-content{
     
 
+    width: 50%;
     display: flex;
     flex-direction: column;
 
-   
     row-gap: 20px;
 
-    align-content:center;
-    justify-content: center;
+  
    
 }
 
@@ -152,11 +153,10 @@ a:active {
 
     display: block;
     
-    width: 60%;
+    width: 45%;
 
     margin: 0 auto;
 
-    margin-top: 70px;
    
     transition: transform 0.1s ease-out;
     will-change: transform;
@@ -171,20 +171,28 @@ b{
 .statement {
 
 
-    font-size: 4rem;
+    font-size: 3.5rem;
     /* background: -webkit-linear-gradient(80deg, #52BBEF, #10C690);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 
     text-align: left;
+    justify-content: left;
+    
 
 }
 
 .subheading {
 
+    display: flex;
+    /* max-width: 45ch; */
+
+    margin-left: 0;
+
     text-align: left;
     justify-content: left;
-    max-width: 45ch;
+
+    align-items: left;
 
     margin: 0 auto;
 
