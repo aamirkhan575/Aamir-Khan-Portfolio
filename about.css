@@ -119,18 +119,27 @@ a:active {
 }
 
 .about-me-section{
- 
-    width: 60%;
-    margin: 0 auto;
+
+    width: 58%;
 
     display: flex;
-
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 10px;
 
+    margin: 0 auto;
+    margin-top: -30px;
+    
     justify-content: center;
 
-    margin-top: 50px;
+    padding: 40px 40px 40px 40px;
+
+    background: rgba(255, 255, 255, 0.15);      /* transparent white */
+    backdrop-filter: blur(15px);                /* main frosted effect */
+    -webkit-backdrop-filter: blur(15px);        /* Safari support */
+  
+     /* Optional styling */
+     border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);  /* soft shadow */
 
 }
 
@@ -146,10 +155,19 @@ img{
 
 }
 
+h1{
+    display: block;
+    
+}
+
+
 p{
 
+    display: block;
+    
     font-family: 'Planquine';
     font-size: 20px;
+
 
 }
 

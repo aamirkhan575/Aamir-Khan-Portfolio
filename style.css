@@ -135,14 +135,20 @@ a:active {
 
     width: 70%;
 
+    background-color: white;
+
     margin: 0 auto;
 
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+
+    
 
 
     display: flex;
     flex-direction: column;
+    
 
 }
 
@@ -193,7 +199,7 @@ b{
 
 
     width: 250px;
-    height: 63px;
+    height: 40px;
 
     border-radius: 40px;
     font-size: 16px;
