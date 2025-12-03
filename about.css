@@ -296,8 +296,6 @@ animation: float-thumb 2.5s ease-in-out infinite;
     text-align: center;
 
     color: #5d5a5a;
-
-    margin-bottom: 60px;
 }
 
 .designerTag:hover {
@@ -306,7 +304,65 @@ animation: float-thumb 2.5s ease-in-out infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-
-   
-
 }
+
+
+@media (max-width: 599px) {
+
+    
+    .footer-contact-info {
+
+        margin-top: 30px;
+
+        display: grid;
+        grid-template-columns: repeat(minmax());
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .mob {
+
+        text-align: center;
+        color: silver;
+    }
+
+
+    .email {
+        text-align: center;
+    }
+
+    .linkedin {
+        text-align: center;
+    }
+
+    .resume {
+        text-align: center;
+    }
+
+    .footer{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    
+
+    .logo-for-footer{
+
+    
+        width: 100px;
+        margin: 0 auto;
+
+        animation: float-thumb 2.5s ease-in-out infinite;
+        
+    }
+    
+}
+
+
+
+
