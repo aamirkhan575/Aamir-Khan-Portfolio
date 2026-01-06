@@ -364,6 +364,22 @@ b{
 
 }
 
+.project-tt {
+
+    width: 1269px;
+    height: 533px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+
+    border: 0.5px solid #9d9d9d;
+    border-radius: 50px 50px 50px 50px;
+
+    background: #f6f6f6;
+
+}
+
 
 .project-thumb {
 
