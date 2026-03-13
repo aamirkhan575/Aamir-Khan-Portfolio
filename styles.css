@@ -713,6 +713,11 @@ a {
     font-size: 0.875rem;
   }
 
+  .hero{
+
+    margin-top: 100px;
+  }
+
   .hero-content {
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -729,9 +734,13 @@ a {
   }
 
   .hero-image {
+    
     width: 256px;
     height: 256px;
+    
   }
+
+
 
   .hero-title {
     font-size: 2.5rem;
