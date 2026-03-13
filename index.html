@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Aamir Khan - Web3 Product Designer">
     <meta name="description" content="A product designer bridging User Needs and Business Goals to Deliver High-Impact Web3 Products"></menu>
@@ -16,7 +16,7 @@
 
     <link rel="icon" type="image/x-icon" href="images/AK-favIcon.svg">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     
  <!-- Hotjar Tracking Codes for https://aamir.design/ -->
@@ -32,242 +32,269 @@
 </script>
 
      <!-- Website Title-->
-    <title> Aamir Khan - Web3 Product Designer </title>
+    <title> Aamir Khan - Web3 & Fintech Product Designer </title>
 </head>
 
 <body>
-
-
-    <div class="header">
-
-        <div class="logo-section">
-
-            <img src="logos/logo-aamir-khan.svg" alt="AamirLogo" class="logo" style="cursor: pointer;">
-
-        </div>
-        <div class="menu-section"> 
-
-        <li>
-            <ul>
-                <a href="#work"> Work </a>
-                <a href="/about.html"> About </a>
-                <a href="#contact"> Contact </a>
-            </ul>
-
-        </li>
-
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo"> <img src="logos/logo-aamir-khan.svg" alt="Aamir-Khan-Logo"></a>
+      <div class="nav-links">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="https://www.linkedin.com/in/aamir-khanz/" class="nav-resume-btn" target="_blank">View Profile</a>
+      </div>
     </div>
-
-    <div class="cta-section"> 
-        <button class="btn" onclick="window.open('https://www.linkedin.com/in/aamir-khanz/', 'Linkedin')">Connect</button>
-    </div>
-      
-    </div>
-
+  </nav>
 
     <!--- Hero Section -->
 
-      <div class="hero-section">
+      <div class="hero">
         
         <div class="featured-photo"> <img src="images/cover-photo-about-section.svg" alt="Aamir Khan Photo"></div>
 
         <div class="intro-section">
 
-        <h1 class="intro-title">I'm Aamir Khan, Sr. Product Designer</h1>
+        <h1 class="hero-title">I'm Aamir Khan, Sr. Product Designer</h1>
 
-        <p class="intro-paragraph">
+        <p class="hero-description">
 
-           I ship products used by 500k+ users, and MVPs that generate $1M+ fund raising across Web3 & Fintech
+           Leading product design that increased 30% user retention,
+           helped onboard 10,000+ users within 3 months across Fintech,
+           and designed Web3 experiences that drove a 12% lift in token sales.
 
         </p>
 
          <div class="get-to-know-me"> 
-        <button class="btn-about" onclick="window.open('https://www.aamir.design/about.html', 'Linkedin')">Get to know me</button>
-    </div>
+        <button class="cta-button" onclick="window.open('#about', 'Linkedin')">Get to know me</button>
+        </div>
         
     </div>
-   
-   
     </div>
     
-     
+  </section>
 
-  
-    <!-- Projects Heading-->
-<h1 id="work">Recent Projects</h1>
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-description">A selection of recent work showcasing user-centered design solutions</p>
+      </div>
 
- <!-- Projects Section Starts form here-->
-<div class="projects-section">
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal" data-delay="0">
+          <!-- <a href="project-1.html" class="project-link"> -->
+            <div class="project-image-wrapper">
+              <img 
+                src="images/projects/ddsc-thumb2.svg"
+                alt="FinFlow Mobile App"
+                class="project-image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">DDSC Fintech Wallet App</h3>
+              <p class="project-description">Spearheading 0→1 design of a blockchain-based stablecoin wallet, defining product vision, UX architecture, and mobile-first strategy.</p>
+              <div class="project-metrics">
+                <div class="metric reveal-scale" data-delay="0">
+                  <div class="metric-value">+30%</div>
+                  <div class="metric-label">User Engagement</div>
+                </div>
+                <div class="metric reveal-scale" data-delay="1">
+                  <div class="metric-value">+85%</div>
+                  <div class="metric-label">Task Completion</div>
+                </div>
+                <div class="metric reveal-scale" data-delay="2">
+                  <div class="metric-value">1M+</div>
+                  <div class="metric-label">Active Users</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-    <!-- Project DDSC Wallet-->  
-<div class="project-ddsc"> 
+        <!-- Project 2 -->
+        <div class="project-card reveal" data-delay="1">
+          <!-- <a href="project-2.html" class="project-link" target="_blank"> -->
+            <div class="project-image-wrapper">
+              <img 
+                src="images/projects/finstreet.svg"
+                alt="Dashboard Analytics Platform"
+                class="project-image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Finstreet Digital Marketplace</h3>
+              <p class="project-description">Region's first private secondaries digital marketplace, essentially connecting issuers and professional investors across global markets.</p>
+              <div class="project-metrics">
+                <div class="metric reveal-scale" data-delay="0">
+                  <div class="metric-value">-23%</div>
+                  <div class="metric-label">User Drop Off</div>
+                </div>
+                <div class="metric reveal-scale" data-delay="1">
+                  <div class="metric-value">5,000+</div>
+                  <div class="metric-label">Active Users</div>
+                </div>
+                <div class="metric reveal-scale" data-delay="2">
+                  <div class="metric-value">99.2%</div>
+                  <div class="metric-label">Data Accuracy</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-<!-- TwoMPixels Left Section-->
-<div class="project-cover"> 
-    
-<img src="images/projects/DDSC-Wallet-Thumb.jpg" alt="DDSC Wallet Thumbnail Photo" class="project-thumb">
-    
-</div>
+        <!-- Project 3 -->
+        <div class="project-card reveal" data-delay="2">
+          <!-- <a href="project-3.html" class="project-link"> -->
+            <div class="project-image-wrapper">
+              <img 
+                src="images/projects/T&T.svg"
+                alt="Design System Pro"
+                class="project-image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Track & Trace Platform</h3>
+              <p class="project-description">Delivered MVP UX for a government-backed pharmaceutical Track & Trace system in Kenya, enabling nationwide supply chain transparency and regulatory oversight.</p>
+              <div class="project-metrics">
+                <div class="metric reveal-scale" data-delay="0">
+                  <div class="metric-value">+75%</div>
+                  <div class="metric-label">Design Efficiency</div>
+                </div>
+                <div class="metric reveal-scale" data-delay="1">
+                  <div class="metric-value">150+</div>
+                  <div class="metric-label">Components</div>
+                </div>
+                <div class="metric reveal-scale" data-delay="2">
+                  <div class="metric-value">100%</div>
+                  <div class="metric-label">Team Adoption</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-<!-- TwoMPixels Right Section-->
-<div class="project-description">
-
- <h1 class="project-title">DDSC Fintech Wallet</h1>
- <p class="project-paragraph">Delivered the MVP within a day and helped company onboard 300+ user within a week.</p>
- <button class="btn-case-study">&#128274; NDA Protected</button>
-
-</div>
-
-</div>
-
-  <!-- Project Finstreet -->
-  <div class="project-finstreet"> 
-
-    <div class="project-cover">
-     
-    <img src="images/projects/Finstreet.webp" alt="Finstreet Thumbnail Photo" class="project-thumb">
-        
+        <!-- Project 4 -->
+        <div class="project-card reveal" data-delay="3">
+          <!-- <a href="project-4.html" class="project-link"> -->
+            <div class="project-image-wrapper">
+              <img 
+                src="images/projects/Spark-Bank.svg"
+                alt="E-Commerce Reimagined"
+                class="project-image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">Spark Bank - Fintech Banking</h3>
+              <p class="project-description">Reimagining the banking experience with ground-breaking visuals combined with exceptional user experience.</p>
+              <div class="project-metrics">
+                <div class="metric reveal-scale" data-delay="0">
+                  <div class="metric-value">+34%</div>
+                  <div class="metric-label">Conversion Rate</div>
+                </div>
+                <div class="metric reveal-scale" data-delay="1">
+                  <div class="metric-value">-42%</div>
+                  <div class="metric-label">Cart Abandonment</div>
+                </div>
+                <div class="metric reveal-scale" data-delay="2">
+                  <div class="metric-value">92%</div>
+                  <div class="metric-label">Customer Satisfaction</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
-    
-    <div class="project-description">
-    
-     <h1 class="project-title">Finstreet</h1>
-     <p class="project-paragraph">Developed and designed the fintech plateform that sucessfully onboarded 500+ users within a month.</p>
-    <button class="btn-case-study">&#128274; NDA Protected</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container-small">
+      <div class="section-header reveal">
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-content">
+        <p class="about-text reveal" data-delay="1">
+        I am a Senior Product Designer specializing in building digital products that help companies turn the visitors into the loyal long-term customers across Fintech and Web3 platforms.        </p>
+          
+        <p class="about-text reveal" data-delay="2">
+        I work closely with founders, engineers, and business stakeholders to translate regulatory, technical, and business requirements into digital products that make user life easier and benefit the business.        </p>
+
+        <p class="about-text reveal" data-delay="3">
+        On personal level, I am calm, confident, and dependable. I am strong listner, communicate clearly, and often step forward to support my teammates when needed.</p>
+      
+       <p class="about-text reveal" data-delay="4">
+        I lead with clarity and collaboration, making it easy and rewarding for colleagues to work with me.</p>
+
+        <p class="about-text reveal" data-delay="5">
+        I believe, designing visually appealing product is easy, but designing intuitive product with a smooth user experience that make user life easier and helps companies grow is not everyone's cup of tea.</p>
+      
+      </div>
+
+      <div class="stats reveal" data-delay="4">
+        <div class="stat hover-scale">
+          <div class="stat-value">6+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat hover-scale">
+          <div class="stat-value">23%</div>
+          <div class="stat-label">User Retention</div>
+        </div>
+        <div class="stat hover-scale">
+          <div class="stat-value">$1M</div>
+          <div class="stat-label">MPV Fund Raise</div>
+        </div>
+        <div class="stat hover-scale">
+          <div class="stat-value">500k</div>
+          <div class="stat-label">Happy Users</div>
+        </div>
+      </div>
     </div>
+  </section>
 
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container-small">
+      <div class="section-header reveal">
+        <h2 class="section-title">Let's Work Together</h2>
+      </div>
+      <p class="contact-description reveal" data-delay="1">
+        Always open to Senior / Lead Product Designer roles and 0→1 product opportunities, and ready to relocate all over the world to meet new people and explore the world.
+      </p>
+
+      <div class="contact-links reveal" data-delay="2">
+        <a href="mailto:hi@aamir.design" class="contact-link">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+          </svg>
+          <span>hi@aamir.design</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/aamir-khanz/" target="_blank" class="contact-link">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+
+      </div>
+
+      <div>
+        <p>© 2026 Aamir Khan. All rights reserved.</p>
+      </div>
     </div>
+  </section>
 
-<!-- Spark Bank-->
-<div class="project-sparkBank"> 
-
-    <!-- Spark Bank Left Section-->
-    <div class="project-cover"> 
-        
-    <img src="images/projects/spark-bank-thumb.webp" alt="Spark Bank Thumbnail Photo" class="project-thumb">
-        
-    </div>
-    
-    <!-- Spark Bank Right Section-->
-    <div class="project-description">
-    
-    <h1 class="project-title">Spark Bank</h1>
-    <p class="project-paragraph">Reimagining the banking experience with ground-breaking visuals combined with exceptional features.</p>
-    <button class="btn-case-study">&#128274; NDA Protected</button>    
-    </div>
-    
-    </div>
-
-     <!-- Project Fortiquo-->
-<div class="project-fortiquo"> 
-
-    <!-- Atlantic Motors Left Section-->
-    <div class="project-cover"> 
-        
-    <img src="images/projects/Fortiquo.svg" alt="Fortiquo Thumbnail Photo" class="project-thumb">
-        
-    </div>
-    
-    <!-- Atlantic Motors Right Section-->
-    <div class="project-description">
-    
-    <h1 class="project-title">Fortiquo</h1>
-    <p class="project-paragraph">Post-Quantum Blockchain Solutions to secure Fintech industry from the quantum cyber attacks.</p>
-    <button class="btn-case-study">&#128274; NDA Protected</button>    
-    </div>
-    
-    
-    </div>
-
-    <!-- Project TwoMPixels-->  
-<div class="project-2million"> 
-
-<!-- TwoMPixels Left Section-->
-<div class="project-cover"> 
-    
-<img src="images/projects/twompixels-thumb.webp" alt="TwoMPixels Thumbnail Photo" class="project-thumb">
-    
-</div>
-
-<!-- TwoMPixels Right Section-->
-<div class="project-description">
-
- <h1 class="project-title">Two Million Pixels</h1>
- <p class="project-paragraph"> Increased user retention by upto 13% by revamping the overall user experience.</p>
- <button class="btn-case-study">&#128274; NDA Protected</button>
-</div>
-
-</div>
-
-
-    <!-- Project Atlantic Motors-->
-<div class="project-aMotors"> 
-
-    <!-- Atlantic Motors Left Section-->
-    <div class="project-cover"> 
-        
-    <img src="images/projects/atlantic-motors-thumb.webp" alt="Atlatic Motors Thumbnail Photo" class="project-thumb">
-        
-    </div>
-    
-    <!-- Atlantic Motors Right Section-->
-    <div class="project-description">
-    
-    <h1 class="project-title">Atlantic Motors</h1>
-    <p class="project-paragraph">Modern App Let’s UAE residents book their favorite car within 5 clicks only.</p>
-    <button class="btn-case-study">&#128274; NDA Protected</button>    
-    </div>
-    
-    
-    </div>
-
-
-
-    <!-- Project TT-->
-<div class="project-tt"> 
-
-    <!-- Atlantic Motors Left Section-->
-    <div class="project-cover"> 
-        
-    <img src="images/projects/TT.svg" alt="Atlatic Motors Thumbnail Photo" class="project-thumb">
-        
-    </div>
-    
-    <!-- Atlantic Motors Right Section-->
-    <div class="project-description">
-    
-    <h1 class="project-title">Track & Trace</h1>
-    <p class="project-paragraph">Helping Kenya Govt to track and trace every medicine imported or manufactured within the country.</p>
-    <button class="btn-case-study">&#128274; NDA Protected</button>    
-    </div>
-    
-    
-    </div>
-
-
- <footer class="footer" id="contact">
-
-<!-- Logo Aamir Khans-->
-<div class="logo-section"> <img src="logos/logo-aamir-khan.svg" alt="Aamir-Khan-Logo" class="logo-for-footer"> </div>
-
-<div class="footer-contact-info">
-<div class="email" onclick="window.open('mailto:hi@aamir.design', 'Email')"> hi@aamir.design </div>
-<div class="mob" onclick="window.open('https://api.whatsapp.com/send?phone=971565578373', 'Whatsapp')"> +971 56 557 8373 </div>
-<div class="linkedin" onclick="window.open('https://www.linkedin.com/in/aamir-khanz/', 'LinkedIn')"> LinkedIn </div>
-<div class="resume" onclick="window.open('https://drive.google.com/file/d/1qJJUc7pYO2xu5z9q0NdR9EFmujH0YhNT/view?usp=sharing', 'Resume')"> Resume </div>
-
-</div>
-
-</footer>
-
-
-
-<div class="copyright-section"> 
-    
-        <p class="copyright-txt"> Designed & Developed by<b class="designerTag" onclick="window.open('https://www.linkedin.com/in/aamir-khanz')"> Aamir Khan</b> with Passion & Precision &#9829;</p>
-
-</div>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
