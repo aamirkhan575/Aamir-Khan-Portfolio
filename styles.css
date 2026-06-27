@@ -139,7 +139,7 @@ a {
 
   opacity: 0;
   transform: translateY(60px);
-  animation: slideUp 0.1s ease-out forwards;
+  animation: slideUp 0.3s ease-out forwards;
   animation-delay: 9s;
 }
 
