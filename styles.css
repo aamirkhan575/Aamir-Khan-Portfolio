@@ -72,9 +72,20 @@ a {
   transition: opacity 0.3s ease;
 }
 
-.nav-logo:hover {
-  opacity: 0.7;
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
+
+.nav-logo:hover {
+  animation: spin 3s linear infinite;
+}
+
+
 
 .nav-links {
   display: flex;
