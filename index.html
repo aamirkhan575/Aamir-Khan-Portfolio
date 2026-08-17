@@ -12,8 +12,6 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://aamir.design/">
     <meta property="og:title" content="Product Designer bridging User Needs and Business Goals to Deliver High-Impact Web3 Products">
-
-
     <link rel="icon" type="image/x-icon" href="logos/logo-aamir-khan.svg">
 
     <link rel="stylesheet" href="styles.css">
@@ -54,7 +52,58 @@
 
       <div class="hero" id="hero">
 
-        <div class="featured-photo"> <img src="images/ezgif-114ebb4e8a8b419b-new.gif" width="1640px" alt="Aamir Khan Portfolio Cover - Web3 / Product Product Designer"> </div>
+        
+
+        <!-- <div class="featured-photo"> <img src="images/ezgif-114ebb4e8a8b419b-new.gif" width="1640px" alt="Aamir Khan Portfolio Cover - Web3 / Product Product Designer"> </div> -->
+
+       <section class="video-section">
+         <video id="scrollVideo" muted playsinline preload="auto">
+          <source src="images/V1.mp4">
+        </video>
+        </section>
+
+     
+      <script>
+  const video = document.getElementById("scrollVideo");
+
+  let targetTime = 0;
+  let currentTime = 0;
+
+  function updateVideo() {
+    const rect = video.parentElement.getBoundingClientRect();
+    const sectionHeight = video.parentElement.offsetHeight;
+    const viewportHeight = window.innerHeight;
+
+    const scrollDistance = sectionHeight - viewportHeight;
+    const progress = Math.min(
+      1,
+      Math.max(0, -rect.top / scrollDistance)
+    );
+
+    targetTime = progress * video.duration;
+  }
+
+  function animate() {
+    currentTime += (targetTime - currentTime) * 0.1;
+
+    if (video.readyState >= 2) {
+      video.currentTime = currentTime;
+    }
+
+    requestAnimationFrame(animate);
+  }
+
+  video.addEventListener("loadedmetadata", () => {
+    updateVideo();
+    animate();
+  });
+
+  window.addEventListener("scroll", updateVideo, {
+    passive: true
+  });
+      </script>
+
+
 
         <div class="intro-section">
 
@@ -84,10 +133,10 @@
         <p class="section-description">A selection of recent work showcasing user-centered design solutions</p>
       </div>
 
+    
  
       <div class="projects-grid">
 
-     
            <!-- Project CypherClick -->
         <div class="project-card reveal" data-delay="2">
           <!-- <a href="project-3.html" class="project-link"> -->
@@ -211,9 +260,6 @@
             </div>
           </a>
         </div>
-
-
-
 
              <!-- Project Track & Trace -->
         <div class="project-card reveal" data-delay="2">
