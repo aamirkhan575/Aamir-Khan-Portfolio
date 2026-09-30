@@ -1064,7 +1064,54 @@ header.nav *{pointer-events:auto}
 .cs-shot.cover.cool::before{
   background:radial-gradient(closest-side,rgba(0,225,255,.24),rgba(43,60,255,.12) 60%,transparent)}
 
+/* ══ Spark Bank — personas & empathy map ═══════════════════ */
+.people{display:grid;gap:clamp(18px,2.6vw,30px);margin-top:clamp(30px,5vh,58px);
+  grid-template-columns:minmax(0,1fr)}
+@media(min-width:840px){.people{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.people article{padding:clamp(22px,3vw,34px);border-radius:4px;
+  background:color-mix(in srgb,var(--fg) 4%,transparent)}
+.people .who{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap}
+.people h3{margin:0;font-family:Archivo,sans-serif;font-variation-settings:"wdth" 106,"wght" 700;
+  font-size:clamp(1.15rem,.85rem + .8vw,1.6rem);letter-spacing:-.02em}
+.people .role{font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--volt-text)}
+.people dl{display:grid;grid-template-columns:auto 1fr;gap:.5rem 1.1rem;margin:1.4rem 0 0;
+  font-family:"JetBrains Mono",monospace;font-size:.74rem;letter-spacing:.06em}
+.people dt{color:var(--fg-faint);text-transform:uppercase;letter-spacing:.12em;white-space:nowrap}
+.people dd{margin:0;color:var(--fg-dim)}
+.people p{margin:1.4rem 0 0;color:var(--fg-dim);line-height:1.62;font-size:.97rem}
+.people .bars{margin-top:1.5rem;display:grid;gap:.85rem}
+.people .bar{display:grid;grid-template-columns:1fr;gap:.35rem}
+.people .bar span{font-family:"JetBrains Mono",monospace;font-size:.68rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--fg-faint)}
+.people .bar i{display:block;height:3px;border-radius:2px;
+  background:color-mix(in srgb,var(--fg) 12%,transparent);position:relative;overflow:hidden}
+.people .bar i::after{content:"";position:absolute;inset:0 auto 0 0;width:var(--v,50%);border-radius:inherit;
+  background:linear-gradient(90deg,var(--volt),var(--ultra) 60%,var(--violet))}
+
+.quad{display:grid;gap:2px;margin-top:clamp(30px,5vh,58px);
+  grid-template-columns:minmax(0,1fr);background:color-mix(in srgb,var(--fg) 10%,transparent);
+  border-radius:4px;overflow:hidden}
+@media(min-width:760px){.quad{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.quad article{padding:clamp(22px,3vw,34px);background:var(--bg)}
+.quad h3{margin:0 0 .9rem;font-family:"JetBrains Mono",monospace;font-size:.72rem;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--volt-text)}
+.quad p{margin:0;color:var(--fg-dim);line-height:1.62;font-size:.97rem}
+
 </style>
+
+<!-- Hotjar Tracking Code for https://aamir.design/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3124010,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
 </head>
 <body>
 
@@ -1741,7 +1788,7 @@ header.nav *{pointer-events:auto}
       </a>
       <a class="big" href="#/" data-back style="border-top:0">
         <span><span class="mono dim">Back to</span><span class="t">Selected work</span></span>
-        <span class="mono dim">All six products</span>
+        <span class="mono dim">All four products</span>
       </a>
       <div style="display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:clamp(26px,4vh,48px)">
         <a class="mono dim" href="mailto:hi@aamir.design?subject=Global%20Citizen%20case%20study">hi@aamir.design</a>
@@ -2252,13 +2299,13 @@ header.nav *{pointer-events:auto}
   <!-- ── next ──────────────────────────────────────────────── -->
   <section class="cs-next" data-mode="ink">
     <div class="cs-wrap">
-      <a class="big" href="#/case/ddsc">
-        <span><span class="mono dim">Next case study</span><span class="t">DDSC Wallet</span></span>
-        <span class="mono dim">Digital AED</span>
+      <a class="big" href="#/case/spark-bank">
+        <span><span class="mono dim">Next case study</span><span class="t">Spark Bank</span></span>
+        <span class="mono dim">Luxury banking</span>
       </a>
       <a class="big" href="#/" data-back style="border-top:0">
         <span><span class="mono dim">Back to</span><span class="t">Selected work</span></span>
-        <span class="mono dim">All six products</span>
+        <span class="mono dim">All four products</span>
       </a>
       <div style="display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:clamp(26px,4vh,48px)">
         <a class="mono dim" href="mailto:hi@aamir.design?subject=Taifa%20Care%20case%20study">hi@aamir.design</a>
@@ -2706,10 +2753,320 @@ header.nav *{pointer-events:auto}
       </a>
       <a class="big" href="#/" data-back style="border-top:0">
         <span><span class="mono dim">Back to</span><span class="t">Selected work</span></span>
-        <span class="mono dim">All six products</span>
+        <span class="mono dim">All four products</span>
       </a>
       <div style="display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:clamp(26px,4vh,48px)">
         <a class="mono dim" href="mailto:hi@aamir.design?subject=DDSC%20case%20study">hi@aamir.design</a>
+        <span class="mono dim">© <span class="yr">2026</span> Aamir Khan</span>
+      </div>
+    </div>
+  </section>
+</article>
+
+<article class="casepage" id="cs-spark-bank" hidden>
+
+  <!-- ── hero ──────────────────────────────────────────────── -->
+  <section class="cs-hero" data-mode="ink">
+    <div class="cs-orb" aria-hidden="true"><canvas class="orb" data-v="3"></canvas></div>
+    <div class="cs-wrap">
+      <a class="cs-back mono dim" href="#/" data-back>
+        <span class="bk" aria-hidden="true">
+          <svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M7 1L2.5 5.5L7 10" stroke="currentColor" stroke-width="1.4"/></svg>
+        </span>
+        <span>All work</span>
+      </a>
+      <div class="cs-eyebrow mono dim" style="margin-top:clamp(28px,5vh,56px)">
+        <span>Case study 04</span><span class="ln" aria-hidden="true"></span><span>Spark Bank</span>
+      </div>
+      <h1 class="cs-title">A whole bank that behaves like a luxury object</h1>
+      <p class="cs-sub">Every banking app ships the same features. Spark Bank was built on the bet that once features stop being the difference, the deciding factor is how the thing makes you feel when you open it.</p>
+      <div class="cs-meta mono dim">
+        <div><span>Role</span><span class="v">Sr. Product Designer</span></div>
+        <div><span>Scope</span><span class="v">Research → IA → wireframes → visual language → build</span></div>
+        <div><span>Method</span><span class="v">Interviews, surveys, personas, empathy maps, CJM, card sorting</span></div>
+        <div><span>Output</span><span class="v">30 screens · clickable prototype</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── premise ───────────────────────────────────────────── -->
+  <section class="cs-sec" data-mode="paper">
+    <div class="cs-wrap cs-cols">
+      <div>
+        <div class="cs-eyebrow mono dim"><span>The premise</span><span class="ln" aria-hidden="true"></span></div>
+        <p class="cs-lead rv">Banking apps compete on a feature list that stopped being a differentiator years ago.</p>
+        <p class="cs-p rv d1">Balance, transfer, cards, statements — every serious bank has them, and has had them for a decade. So Spark Bank does not try to be the perfect banking product. It takes a position: that a financial app can carry full-scale banking functionality and still be something a person looks forward to opening.</p>
+        <p class="cs-p rv d1">That is a design problem, not a feature problem. It took several months, and the whole thing was built on what people told us they actually wanted rather than on what the category assumes.</p>
+      </div>
+      <div class="rv d1">
+        <span class="mono dim">What &ldquo;luxury&rdquo; had to mean here</span>
+        <ul class="cs-asks">
+          <li><i aria-hidden="true"></i>Not a gold gradient on a standard app</li>
+          <li><i aria-hidden="true"></i>Nothing removed to make it look calm</li>
+          <li><i aria-hidden="true"></i>Considered at every state, not just the home screen</li>
+          <li><i aria-hidden="true"></i>Emotionally legible, not just visually rich</li>
+          <li><i aria-hidden="true"></i>Worth opening when there is nothing to do</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 01 research ───────────────────────────────────────── -->
+  <section class="cs-sec" data-mode="paper" style="padding-top:0">
+    <div class="cs-wrap">
+      <div class="cs-eyebrow mono dim"><span>01 — Find the heroes of the story</span><span class="ln" aria-hidden="true"></span></div>
+      <h2 class="cs-h rv">You cannot design for a feeling<br>you have not heard described</h2>
+      <p class="cs-p rv d1">Before a single frame, I wanted to know who would become an enthusiastic supporter of this bank and why. That meant asking, not assuming — interviews in person and remotely, publicly available research, and surveys run on social media to reach people outside our own circle.</p>
+      <div class="tags rv d1" style="margin-top:clamp(26px,4.4vh,50px)">
+        <span>In-person interviews</span><span>Remote interviews</span><span>Social-media surveys</span>
+        <span>Desk research</span><span>Competitive teardown</span>
+      </div>
+      <p class="cs-p rv d1" style="margin-top:clamp(28px,4.6vh,54px)">Two archetypes came out of it, and they turned out to be the whole brief.</p>
+      <div class="triad" style="grid-template-columns:minmax(0,1fr)">
+        <article class="rv">
+          <h3>Discoverers</h3>
+          <q>Traditional banking apps are complicated and tedious.</q>
+          <p>Energetic people who keep up with current trends. They are not asking for more features; they are asking why using their money feels like admin.</p>
+        </article>
+        <article class="rv d1">
+          <h3>Lovers of beauty</h3>
+          <q>It should look like something I chose.</q>
+          <p>Enthusiasts of good-looking, authentic solutions and modern novelties, who want that appreciation of beauty to extend into the ordinary parts of their lives.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 02 personas ───────────────────────────────────────── -->
+  <section class="cs-sec" data-mode="ink">
+    <div class="cs-wrap">
+      <div class="cs-eyebrow mono dim"><span>02 — Key user personas</span><span class="ln" aria-hidden="true"></span></div>
+      <p class="cs-lead rv">Two people carried the decisions. One is why the app has to be fast. The other is why it has to be exact.</p>
+      <div class="people">
+        <article class="rv">
+          <div class="who"><h3>Lukas Warner</h3><span class="role">Sales manager</span></div>
+          <dl>
+            <dt>Age</dt><dd>35</dd>
+            <dt>Education</dt><dd>MBA</dd>
+            <dt>Work</dt><dd>Sales manager at an IT company</dd>
+            <dt>Family</dt><dd>Mother, brother, three sisters</dd>
+            <dt>Lives</dt><dd>Dubai, UAE</dd>
+          </dl>
+          <div class="bars">
+            <div class="bar"><span>Financial literacy</span><i style="--v:45%"></i></div>
+            <div class="bar"><span>Tech skills</span><i style="--v:88%"></i></div>
+          </div>
+          <p>Elegant, precise, ambitious. Still paying a student loan from three years ago and saving for his first property, because paying down a loan beats paying rent. He holds accounts at several banks he never chose — one per job — and splits his life between them: one for the loan and savings, another for daily spending. He plans purchases rather than making them. What he wants is simply to see where the money goes.</p>
+        </article>
+        <article class="rv d1">
+          <div class="who"><h3>Chris Torel</h3><span class="role">Finance manager</span></div>
+          <dl>
+            <dt>Age</dt><dd>55</dd>
+            <dt>Education</dt><dd>PhD, Business Strategy</dd>
+            <dt>Work</dt><dd>Finance manager at a global bank</dd>
+            <dt>Family</dt><dd>Father, wife and son</dd>
+            <dt>Lives</dt><dd>Sharjah, UAE</dd>
+          </dl>
+          <div class="bars">
+            <div class="bar"><span>Financial literacy</span><i style="--v:95%"></i></div>
+            <div class="bar"><span>Tech skills</span><i style="--v:55%"></i></div>
+          </div>
+          <p>He knows exactly what a bank owes him, which makes him the harder of the two to please. He will forgive a slower path if the numbers are unambiguous, and forgive nothing if they are not. Designing for Chris is what kept the product honest: no figure without its context, no confirmation without its detail, nothing simplified past the point of being checkable.</p>
+        </article>
+      </div>
+      <p class="cs-p rv d1" style="margin-top:clamp(28px,4.6vh,54px)">Between them they cover the two failure modes of a premium financial product — too slow for the person who lives on their phone, too vague for the person who reads the statement.</p>
+    </div>
+  </section>
+
+  <!-- ── 03 empathy map ────────────────────────────────────── -->
+  <section class="cs-sec" data-mode="ink" style="padding-top:0">
+    <div class="cs-wrap">
+      <div class="cs-eyebrow mono dim"><span>03 — Open your heart to the user&rsquo;s feelings</span><span class="ln" aria-hidden="true"></span></div>
+      <h2 class="cs-h rv">An empathy map for each persona,<br>to find out what the interview left out</h2>
+      <p class="cs-p rv d1">A persona tells you who someone is. An empathy map tells you what it is like to be them — and that is where the main paths of usage came from, ranked by what actually mattered to the person rather than by what was easiest to build.</p>
+      <div class="quad">
+        <article class="rv">
+          <h3>Says</h3>
+          <p>&ldquo;Is there something innovative in finances?&rdquo; Pays attention to details. Likes discussing fintech, and a lot of other things besides.</p>
+        </article>
+        <article class="rv">
+          <h3>Thinks</h3>
+          <p>All financial apps are the same — complex, and nothing to look at. A financial app should make life easier. It should save time and energy, not spend it.</p>
+        </article>
+        <article class="rv">
+          <h3>Does</h3>
+          <p>Loves sport, spends weekends outside rather than at home. Plans his spending in a spreadsheet, because the bank never gave him anything better.</p>
+        </article>
+        <article class="rv">
+          <h3>Feels</h3>
+          <p>Dislikes the feeling of not being on top of his spending. Relaxed in a space that looks and feels good. Interested every time he tries something new.</p>
+        </article>
+      </div>
+      <p class="cs-p rv d1" style="margin-top:clamp(30px,5vh,58px)">Two things fell out of this that shaped everything after it. The pain was not missing functionality — it was out-of-date design that took effort to read. And these people were already primed to leave: they were curious about neo-banks, and being told to try them by friends who had already switched.</p>
+      <div class="fromto" style="margin-top:clamp(26px,4.4vh,50px)">
+        <div class="rv d1"><span class="mono dim">The complaint we expected</span><q>My bank is missing features.</q></div>
+        <div class="rv d2 b"><span class="mono dim">The complaint we heard</span><q>My bank makes me work to understand my own money.</q></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 04 customer journey map ───────────────────────────── -->
+  <section class="cs-sec" data-mode="paper">
+    <div class="cs-wrap">
+      <div class="cs-eyebrow mono dim"><span>04 — Map the journey</span><span class="ln" aria-hidden="true"></span></div>
+      <h2 class="cs-h rv">Everything we had learned,<br>merged into one picture</h2>
+      <p class="cs-p rv d1">The customer journey map pulled the observations from every earlier stage into a single document: what people expected from the app, what they would feel while using it, and the paths they would take most — set against business objectives, KPIs and a plan of action.</p>
+      <p class="cs-p rv d1">Seeing the whole picture at once is what made it possible to design a step-by-step experience that serves the person and the business in the same move, instead of trading one against the other. And it let me mark the moments that carry the most emotional weight — the points where the product either earns trust or loses it.</p>
+      <div class="outcome rv d1">
+        <b>Curiosity</b><i>→</i><b>Enrol</b><i>→</i><b>First look</b><i>→</i><b>Daily use</b><i>→</i><b>Moment of doubt</b><i>→</i><b>Loyalty</b>
+      </div>
+      <p class="cs-p rv d1" style="margin-top:clamp(26px,4.4vh,50px)">The crucial action points were not the ones with the most taps. They were the ones where someone asks themselves, quietly, whether this bank has their back.</p>
+    </div>
+  </section>
+
+  <!-- ── 05 information architecture ───────────────────────── -->
+  <section class="cs-sec" data-mode="paper" style="padding-top:0">
+    <div class="cs-wrap">
+      <div class="cs-eyebrow mono dim"><span>05 — Information architecture</span><span class="ln" aria-hidden="true"></span></div>
+      <h2 class="cs-h rv">The decision the whole<br>product rests on: no menu</h2>
+      <p class="cs-p rv d1">I built the architecture from the mental models people showed us rather than from the org chart of a bank. To get there I ran card sorting — potential users arranging the components of the product the way their own heads arrange them — and used the result to shape the conceptual model of the service, built from the fundamental sections of data and the vocabulary that goes with them.</p>
+      <p class="cs-p rv d1">Then I made the call that defines Spark Bank: simplify the architecture until the navigation menu is unnecessary, and delete it. Not fewer features — fewer places to be lost.</p>
+      <div class="swap rv d1">
+        <div class="side"><b>Menu</b><span>A list of where you could be</span></div>
+        <div class="mid"><i>Became</i><i class="back">Replaced</i></div>
+        <div class="side dig"><b>Structure</b><span>A place you already are</span></div>
+      </div>
+      <span class="mono dim rv d1" style="display:block;margin-top:clamp(30px,5vh,58px)">And none of this was given up to get there</span>
+      <div class="tags rv d1">
+        <span>Accounts</span><span>Transactions</span><span>Statistics &amp; graphs</span><span>Transfer</span>
+        <span>Request</span><span>Add funds</span><span>Scheduled payments</span><span>Lines of credit</span>
+        <span>Insurance</span><span>Debit cards</span><span>Investments</span><span>Profile settings</span>
+        <span>Notifications</span><span>Support</span>
+      </div>
+      <p class="cs-p rv d1" style="margin-top:clamp(26px,4.4vh,50px)">A full bank, with nowhere to get lost in it. That constraint did more for the feeling of the product than any visual decision that followed.</p>
+    </div>
+  </section>
+
+  <!-- ── 06 wireframes ─────────────────────────────────────── -->
+  <section class="cs-sec" data-mode="ink">
+    <div class="cs-wrap">
+      <div class="cs-eyebrow mono dim"><span>06 — Wireframes, low then high</span><span class="ln" aria-hidden="true"></span></div>
+      <p class="cs-lead rv">Low fidelity to argue about structure. High fidelity to find out we were wrong about one thing.</p>
+      <p class="cs-p rv d1">Low-fidelity wireframes drew the overall structure of the app — cheap enough to throw away, complete enough to disagree with. High fidelity turned that into a prototype real enough to test the UX strategy and the key user scenarios properly, which is where the interesting failure showed up.</p>
+      <p class="cs-p rv d1">We tested in-house against the most critical and frequently used banking scenarios from the Red Route Analysis. People struggled to work out how to activate the payment function.</p>
+      <div class="fromto" style="margin-top:clamp(26px,4.4vh,50px)">
+        <div class="rv d1"><span class="mono dim">The obvious fix</span><q>Add a control that explains itself.</q></div>
+        <div class="rv d2 b"><span class="mono dim">What we did instead</span><q>Leave the structure alone and teach it once, on first login.</q></div>
+      </div>
+      <p class="cs-p rv d1" style="margin-top:clamp(26px,4.4vh,50px)">Adding a visible affordance would have solved one screen and started the slow slide back toward the cluttered apps we were reacting against. Keeping the structure intact and adding a single learning tip at first login solved it for people less comfortable with advanced technology without charging every other user for it, forever. That trade — one moment of teaching against permanent visual debt — is the one I would defend hardest.</p>
+    </div>
+  </section>
+
+  <!-- ── 07 key concept ────────────────────────────────────── -->
+  <section class="cs-sec" data-mode="ink" style="padding-top:0">
+    <div class="cs-wrap">
+      <div class="cs-eyebrow mono dim"><span>07 — The key concept</span><span class="ln" aria-hidden="true"></span></div>
+      <h2 class="cs-h rv">You cannot colour in<br>a wireframe and call it a feeling</h2>
+      <p class="cs-p rv d1">This is the phase everyone waits for and the one most often skipped. The job was to turn what we had learned about how these people feel into a visual language — and that is not the same as applying a palette to finished wireframes, or borrowing an abstract inspiration board.</p>
+      <p class="cs-p rv d1">It took a week. The idea changed shape repeatedly, and the version we shipped looks very little like the first one. I kept going until nothing obvious was left to improve, which is the only honest stopping rule I know.</p>
+      <div class="concepts">
+        <article class="rv"><span class="n">01</span><h3>Version one</h3><p>The premise stated plainly. Enough to see that the direction had something, and that it was not there yet.</p></article>
+        <article class="rv d1"><span class="n">02</span><h3>Version two</h3><p>Warmth and depth pushed harder against the dark ground, testing how far richness could go before it read as decoration.</p></article>
+        <article class="rv d2"><span class="n">03</span><h3>Version three</h3><p>Pulled back. The restraint that separates a premium product from an expensive-looking one.</p></article>
+        <article class="rv d3"><span class="n">04</span><h3>Final</h3><p>Light, depth and motion borrowed from nature rather than from finance — the reason the app feels alive instead of merely dark.</p></article>
+      </div>
+      <span class="mono dim rv d1" style="display:block;margin-top:clamp(32px,5.2vh,64px)">The language had to read as</span>
+      <div class="adjectives rv d1">
+        <span>Mind-blowing</span><span>Emotionally engaging</span><span>Delightful</span><span>Easy to use</span><span>Innovative</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 08 final product ──────────────────────────────────── -->
+  <section class="cs-sec" data-mode="paper">
+    <div class="cs-wrap">
+      <div class="cs-eyebrow mono dim"><span>08 — The product</span><span class="ln" aria-hidden="true"></span></div>
+      <h2 class="cs-h rv">Thirty screens,<br>clickable end to end</h2>
+      <p class="cs-p rv d1">The final concept covers the scenarios that matter most, built as a clickable prototype in Figma so the experience could be judged by using it rather than by reviewing it.</p>
+      <span class="mono dim rv d1" style="display:block;margin-top:clamp(30px,5vh,58px)">Enrolment, in full</span>
+      <div class="outcome rv d1">
+        <b>Welcome</b><i>→</i><b>Scan ID</b><i>→</i><b>Capture face</b><i>→</i><b>Confirm details</b><i>→</i><b>Nice to meet you</b>
+      </div>
+      <p class="cs-p rv d1" style="margin-top:clamp(26px,4.4vh,50px)">Identity checks are where most banks lose people, so this is the part that gets the most warmth — the app asks you to smile at it, shows you what it read, and lets you correct it before anything is committed.</p>
+      <span class="mono dim rv d1" style="display:block;margin-top:clamp(32px,5.2vh,64px)">And the rest of the bank</span>
+      <div class="tags rv d1">
+        <span>Accounts &amp; balances</span><span>Debit, credit &amp; salary cards</span><span>Transfer with purpose</span>
+        <span>Transaction history</span><span>Spending by category</span><span>Reports</span>
+        <span>Insurance</span><span>Loans</span><span>Scheduled payments</span><span>Profile &amp; settings</span>
+      </div>
+      <p class="cs-p rv d1" style="margin-top:clamp(26px,4.4vh,50px)">Small thing, large effect: a transfer asks what it is for — car, business, education, electronics, health, loan. It costs one tap and it is the reason the spending breakdown is worth looking at later. Most apps make you categorise afterwards, which is to say never.</p>
+    </div>
+  </section>
+
+  <!-- ── principles ────────────────────────────────────────── -->
+  <section class="cs-sec" data-mode="paper" style="padding-top:0">
+    <div class="cs-wrap">
+      <div class="cs-eyebrow mono dim"><span>What I took from it</span><span class="ln" aria-hidden="true"></span></div>
+      <div class="princ">
+        <article class="rv">
+          <span class="pn">01</span>
+          <h3>Feeling is a requirement, not a finish</h3>
+          <p>If the emotional target is not written down next to the functional ones, it gets negotiated away in the first review. We wrote ours down: mind-blowing, emotionally engaging, delightful, easy to use, innovative.</p>
+        </article>
+        <article class="rv">
+          <span class="pn">02</span>
+          <h3>Simplify the structure, not the product</h3>
+          <p>Removing the navigation menu while keeping every banking function is harder than cutting features, and it is the only version of simplicity a bank can actually ship.</p>
+        </article>
+        <article class="rv">
+          <span class="pn">03</span>
+          <h3>Let card sorting overrule your instinct</h3>
+          <p>The architecture that felt right to me and the one people built with their own hands were not the same. Theirs won, and navigation stopped being a problem.</p>
+        </article>
+        <article class="rv">
+          <span class="pn">04</span>
+          <h3>Teach once rather than clutter forever</h3>
+          <p>A usability failure is not automatically an argument for another control on the screen. Sometimes the cheapest fix for everyone is one tip, shown one time.</p>
+        </article>
+        <article class="rv">
+          <span class="pn">05</span>
+          <h3>Luxury is consistency under pressure</h3>
+          <p>Anyone can make a home screen look expensive. The product is judged on the confirmation, the error, the empty state and the receipt.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── finale ────────────────────────────────────────────── -->
+  <section class="cs-sec" data-mode="ink">
+    <div class="cs-wrap">
+      <div class="cs-eyebrow mono dim"><span>The bigger picture</span><span class="ln" aria-hidden="true"></span></div>
+      <p class="cs-p rv" style="max-width:56ch">Spark Bank was never trying to be the perfect banking solution. It was an argument that the next advantage in financial products is not another feature — it is designing for how people feel while they use their own money. That argument is easier to make now than it was in 2021, and it is the one I have been making in every financial product since.</p>
+      <div class="finale">
+        <p class="big rv d1">Full-scale banking underneath. Nothing in the way on top.</p>
+        <ul class="rv d2">
+          <li>Ask people how it feels, not what they want.</li>
+          <li>Build the structure from their heads, not yours.</li>
+          <li>Earn the restraint before you spend it.</li>
+          <li>And make it worth opening on a day with nothing to do.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── next ──────────────────────────────────────────────── -->
+  <section class="cs-next" data-mode="ink">
+    <div class="cs-wrap">
+      <a class="big" href="#/case/ddsc">
+        <span><span class="mono dim">Next case study</span><span class="t">DDSC Wallet</span></span>
+        <span class="mono dim">Digital AED</span>
+      </a>
+      <a class="big" href="#/" data-back style="border-top:0">
+        <span><span class="mono dim">Back to</span><span class="t">Selected work</span></span>
+        <span class="mono dim">All four products</span>
+      </a>
+      <div style="display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:clamp(26px,4vh,48px)">
+        <a class="mono dim" href="mailto:hi@aamir.design?subject=Spark%20Bank%20case%20study">hi@aamir.design</a>
         <span class="mono dim">© <span class="yr">2026</span> Aamir Khan</span>
       </div>
     </div>
@@ -3356,9 +3713,9 @@ window.AK = (function () {
     { n: 'Track &amp; Trace', k: 'Enterprise · Pharma supply chain', v: 4, cs: 'track-trace', img: 'tt',
       d: 'Taifa Care — a pharmaceutical Track &amp; Trace platform connecting government regulators, manufacturers, distributors, suppliers and healthcare facilities across Kenya. Every medicine carries a digital identity that travels with the physical product, so a regulator, a manufacturer and a hospital pharmacist can each answer their own version of one question: where has this batch been?',
       r: 'Product design · Design system', s: 'Enterprise platform · Regulator dashboard', o: 'Discovery → prototype → shipped build' },
-    { n: 'Spark Bank', k: 'FinTech · Banking', v: 3,
+    { n: 'Spark Bank', k: 'FinTech · Banking', v: 3, cs: 'spark-bank',
       d: 'A challenger bank organized around momentum rather than balance. Spending, saving and goals share one motion language, so progress is something you feel in the interface before you read it in a figure.',
-      r: 'Product design · Motion', s: 'iOS · Android · Web', o: 'Brand-to-product design system' }
+      r: 'Sr. Product Designer', s: 'iOS · Android · Web', o: 'Brand-to-product design system' }
   ];
 
   /* ══ hero / cta letter type ═══════════════════════════════ */
