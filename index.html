@@ -4426,7 +4426,7 @@ window.AK = (function () {
   $$('#contact .line').forEach(l => lio.observe(l));
 
   /* ══ marquee ══════════════════════════════════════════════ */
-  const WORDS = ['Web3', 'Fintech 0 - 1 Product Design', 'ON-RAMP/OFF-RAMP', 'Design Systems', 'AML', 'Stablecoin', 'KYC/KYB', 'Prototyping', 'Motion', 'Front-end'];
+  const WORDS = ['Web3', 'Fintech 0 - 1 Product Design', 'ON-RAMP/OFF-RAMP', 'Design Systems', 'AML', 'Stablecoin', 'Onboarding', 'Flows', 'AML', 'KYC/KYB`'];
   /* the wrap offset is one run's width, so the number of copies has to be
      the same in both places — the marquee jumps if they drift apart */
   const COPIES = 3;
@@ -4435,7 +4435,7 @@ window.AK = (function () {
     el.innerHTML = one.repeat(COPIES);
   }
   fillRun($('#mq1')); fillRun($('#mq2'));
-  const MQ = { a: $('#mq1'), b: $('#mq2'), w1: 0, w2: 0 };
+  const MQ = { a: $('#mq1'), b: $('#mq2'), w1: 0, w2: 5 };
   function measureMQ() { MQ.w1 = MQ.a.scrollWidth / COPIES; MQ.w2 = MQ.b.scrollWidth / COPIES; }
   measureMQ(); setTimeout(measureMQ, 800);
   D.fonts && D.fonts.ready && D.fonts.ready.then(measureMQ);
